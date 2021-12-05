@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI2021-20-Paradox</title>
+</head>
+<style>
+    body{
+        background-image: url('https://i.imgur.com/sUWprxO.jpg');
+        background-position: center;
+        background-size: cover;
+        font-family: 'Tahoma';
+    }
+    .main-section{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 35px;
+        color: goldenrod;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+    .main-section h1{
+        font-size: 55px;
+        text-align: center;
+        font-family: 'Brush Script MT';
+    }
+    .main-section h2{
+        font-size: 30px;
+        text-align: right;
+    }
+    .main-section p{
+        font-size: 25px;
+    }
+    .main-section ul li{
+        font-size: 25px;
+    }
+    .main-section .dia{
+        text-align: center;
+    }
+    .main-section .dia img{
+        border: 10px solid goldenrod;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="main-section">
+        <h2>Tim: SI2021-20-Paradox</h2>
+        <h2>Tema: Aplikacija nalik pošti, naziv „Golden Road“</h2>
+        <br>
+        <h1>Prvi domaći iadatak</h1>
+        <br>
+        <p>Svrha aplikacije "Golden Road" jeste da obezbedi optimalan način izvršavanja procesa transakcije finansijskih sredstava na proizvoljne račune od strane korisnika.</p>
+        <p>Aplikacija će se sastojati iz web i desktop okruženja, s tim što se u okviru web okruženja neće pojavljivati mogućnost prijavljivanja administratora. </p>
+        <p>Entiteti u okviru ove aplikacije su:</p>
+        <ul>
+            <li>korisnik</li>
+            <li>osoba</li>
+            <li>administrator</li>
+            <li>uplata</li>
+        </ul>
+        <p>Korisnik će biti u mogućnosti da izvrši prijavu i registraciju na sistem.</p>
+        <p>Prilikom prijave obavezan je unos korisničkog imena i šifre.</p>
+        <p>Prilikom registracije korisnik unosi sledeće podatke: ime, prezime, adresu (proizvoljno), broj telefona, broj tekućeg/štednog računa (obavezno jedan, proizvoljno više), e-mail adresu (proizvoljno) i JMBG.</p>
+        <p>Nakon prijave/registracije, korisnik je u mogućnosti da izvrši uplatu sa svog tekućeg ili štednog računa.</p>
+        <p>Prilikom uplate potrebno je navesti: broj računa primaoca, poziv na broj, količinu sredstava za uplatu, ime primaoca, šifru plaćanja, mesto i datum prijema i svrhu uplate, nalik klasičnoj uplatnici.</p>
+        <p>Uz to, korisnik će biti u prilici da odabere sa kog računa će prenositi sredstva u slučaju da je pri registraciji uneo više njih.</p>
+        <p>Pored korisnika, pristup sistemu ima i administrator.</p>
+        <p>Administrator nema potrebu za registracijom, njegov nalog je kreiran od strane organizacije. On ima uvid u sve transakcije svih korisnika aplikacije i mogućnost brisanja naloga korisnika.</p>
+        <p>Administrator podatke pregleda sa desktop aplikacije zbog integriteta podataka korisnika.</p>
+        <p>Glavni fokus ovog projekta će biti da temeljito i efikasno izradimo početnu verziju desktop aplikacije, kako bi se postavio povoljan temelj za širenje i razvoj u daljim iteracijama, sve u cilju zadovoljenja potreba korisnika.</p>
+        <br>
+        <div class="dia">
+            <p>ER dijagram</p>
+            <img src="https://i.imgur.com/9bOHCLS.jpg" alt="ERD">
+        </div>
+    </div>
+</body>
+</html>
