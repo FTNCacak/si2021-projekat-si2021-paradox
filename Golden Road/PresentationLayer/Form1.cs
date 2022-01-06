@@ -22,6 +22,9 @@ namespace PresentationLayer
         private void customizeDesing()
         {
             panelPopUp.Visible = false;
+            buttonCheck.Enabled = false;
+            buttonPayment.Enabled = false;
+            buttonLogout.Visible = false;
         }
         
         private void hidePopUpMenu()
@@ -48,7 +51,6 @@ namespace PresentationLayer
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             showPopUpMenu(panelPopUp);
-            //Code...
         }
 
         private void buttonAdmin_Click(object sender, EventArgs e)
@@ -57,7 +59,7 @@ namespace PresentationLayer
             //Code...
         }
 
-        private void buttonUser_Click(object sender, EventArgs e)
+        private void buttonUser_Click_1(object sender, EventArgs e)
         {
             hidePopUpMenu();
             //Code...

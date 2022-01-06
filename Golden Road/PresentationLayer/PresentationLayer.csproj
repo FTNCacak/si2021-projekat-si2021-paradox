@@ -89,5 +89,35 @@
   <ItemGroup>
     <None Include="Resources\road.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\road1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
