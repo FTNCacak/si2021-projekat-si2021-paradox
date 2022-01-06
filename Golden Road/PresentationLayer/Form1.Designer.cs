@@ -31,26 +31,34 @@ namespace PresentationLayer
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGoldenRoad));
             this.panelSideMenu = new System.Windows.Forms.Panel();
+            this.buttonPayment = new System.Windows.Forms.Button();
+            this.buttonCheck = new System.Windows.Forms.Button();
+            this.buttonRegister = new System.Windows.Forms.Button();
             this.panelPopUp = new System.Windows.Forms.Panel();
             this.buttonUser = new System.Windows.Forms.Button();
             this.buttonAdmin = new System.Windows.Forms.Button();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBoxRoadTop = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRoadBottom = new System.Windows.Forms.PictureBox();
+            this.pictureBoxWelcome = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelPopUp.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRoadTop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRoadBottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWelcome)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.panelSideMenu.Controls.Add(this.button2);
-            this.panelSideMenu.Controls.Add(this.button1);
+            this.panelSideMenu.Controls.Add(this.buttonPayment);
+            this.panelSideMenu.Controls.Add(this.buttonCheck);
+            this.panelSideMenu.Controls.Add(this.buttonRegister);
             this.panelSideMenu.Controls.Add(this.panelPopUp);
             this.panelSideMenu.Controls.Add(this.buttonLogin);
             this.panelSideMenu.Controls.Add(this.panelLogo);
@@ -59,6 +67,62 @@ namespace PresentationLayer
             this.panelSideMenu.Name = "panelSideMenu";
             this.panelSideMenu.Size = new System.Drawing.Size(200, 487);
             this.panelSideMenu.TabIndex = 0;
+            // 
+            // buttonPayment
+            // 
+            this.buttonPayment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.buttonPayment.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPayment.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonPayment.Enabled = false;
+            this.buttonPayment.FlatAppearance.BorderSize = 0;
+            this.buttonPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonPayment.ForeColor = System.Drawing.Color.Gold;
+            this.buttonPayment.Location = new System.Drawing.Point(0, 367);
+            this.buttonPayment.Name = "buttonPayment";
+            this.buttonPayment.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonPayment.Size = new System.Drawing.Size(200, 40);
+            this.buttonPayment.TabIndex = 4;
+            this.buttonPayment.Text = "PAYMENT";
+            this.buttonPayment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonPayment.UseVisualStyleBackColor = false;
+            // 
+            // buttonCheck
+            // 
+            this.buttonCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.buttonCheck.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCheck.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCheck.Enabled = false;
+            this.buttonCheck.FlatAppearance.BorderSize = 0;
+            this.buttonCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCheck.ForeColor = System.Drawing.Color.Gold;
+            this.buttonCheck.Location = new System.Drawing.Point(0, 327);
+            this.buttonCheck.Name = "buttonCheck";
+            this.buttonCheck.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonCheck.Size = new System.Drawing.Size(200, 40);
+            this.buttonCheck.TabIndex = 3;
+            this.buttonCheck.Text = "PAYER CHECK";
+            this.buttonCheck.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCheck.UseVisualStyleBackColor = false;
+            // 
+            // buttonRegister
+            // 
+            this.buttonRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.buttonRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRegister.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonRegister.FlatAppearance.BorderSize = 0;
+            this.buttonRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRegister.ForeColor = System.Drawing.Color.Gold;
+            this.buttonRegister.Location = new System.Drawing.Point(0, 287);
+            this.buttonRegister.Name = "buttonRegister";
+            this.buttonRegister.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonRegister.Size = new System.Drawing.Size(200, 40);
+            this.buttonRegister.TabIndex = 2;
+            this.buttonRegister.Text = "REGISTER";
+            this.buttonRegister.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonRegister.UseVisualStyleBackColor = false;
             // 
             // panelPopUp
             // 
@@ -114,7 +178,7 @@ namespace PresentationLayer
             this.buttonLogin.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonLogin.FlatAppearance.BorderSize = 0;
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonLogin.ForeColor = System.Drawing.Color.Gold;
             this.buttonLogin.Location = new System.Drawing.Point(0, 174);
             this.buttonLogin.Name = "buttonLogin";
@@ -146,43 +210,38 @@ namespace PresentationLayer
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
             // 
-            // button1
+            // pictureBoxRoadTop
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Enabled = false;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(0, 287);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(200, 40);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "PAYMENT";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.pictureBoxRoadTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxRoadTop.Image = global::PresentationLayer.Properties.Resources.road;
+            this.pictureBoxRoadTop.Location = new System.Drawing.Point(200, 0);
+            this.pictureBoxRoadTop.Name = "pictureBoxRoadTop";
+            this.pictureBoxRoadTop.Size = new System.Drawing.Size(837, 120);
+            this.pictureBoxRoadTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRoadTop.TabIndex = 1;
+            this.pictureBoxRoadTop.TabStop = false;
             // 
-            // button2
+            // pictureBoxRoadBottom
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.Enabled = false;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.Color.Gold;
-            this.button2.Location = new System.Drawing.Point(0, 327);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(200, 40);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "PAYER CHECK";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.pictureBoxRoadBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pictureBoxRoadBottom.Image = global::PresentationLayer.Properties.Resources.road;
+            this.pictureBoxRoadBottom.Location = new System.Drawing.Point(200, 367);
+            this.pictureBoxRoadBottom.Name = "pictureBoxRoadBottom";
+            this.pictureBoxRoadBottom.Size = new System.Drawing.Size(837, 120);
+            this.pictureBoxRoadBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRoadBottom.TabIndex = 2;
+            this.pictureBoxRoadBottom.TabStop = false;
+            // 
+            // pictureBoxWelcome
+            // 
+            this.pictureBoxWelcome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxWelcome.Image = global::PresentationLayer.Properties.Resources.welcome;
+            this.pictureBoxWelcome.Location = new System.Drawing.Point(200, 120);
+            this.pictureBoxWelcome.Name = "pictureBoxWelcome";
+            this.pictureBoxWelcome.Size = new System.Drawing.Size(837, 247);
+            this.pictureBoxWelcome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxWelcome.TabIndex = 4;
+            this.pictureBoxWelcome.TabStop = false;
             // 
             // FormGoldenRoad
             // 
@@ -190,6 +249,9 @@ namespace PresentationLayer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1037, 487);
+            this.Controls.Add(this.pictureBoxWelcome);
+            this.Controls.Add(this.pictureBoxRoadBottom);
+            this.Controls.Add(this.pictureBoxRoadTop);
             this.Controls.Add(this.panelSideMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormGoldenRoad";
@@ -200,6 +262,9 @@ namespace PresentationLayer
             this.panelPopUp.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRoadTop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRoadBottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWelcome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -213,8 +278,12 @@ namespace PresentationLayer
         private System.Windows.Forms.Button buttonUser;
         private System.Windows.Forms.Button buttonAdmin;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonCheck;
+        private System.Windows.Forms.Button buttonRegister;
+        private System.Windows.Forms.Button buttonPayment;
+        private System.Windows.Forms.PictureBox pictureBoxRoadTop;
+        private System.Windows.Forms.PictureBox pictureBoxRoadBottom;
+        private System.Windows.Forms.PictureBox pictureBoxWelcome;
     }
 }
 
