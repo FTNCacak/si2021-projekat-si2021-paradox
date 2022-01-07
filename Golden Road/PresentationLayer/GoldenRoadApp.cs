@@ -21,9 +21,11 @@ namespace PresentationLayer
 
         private void customizeDesing()
         {
+            buttonLogin.Visible = true;
+            buttonRegister.Visible = true;
             panelPopUp.Visible = false;
-            buttonCheck.Enabled = false;
-            buttonPayment.Enabled = false;
+            buttonCheck.Visible = false;
+            buttonPayment.Visible = false;
             buttonLogout.Visible = false;
         }
         
@@ -43,11 +45,28 @@ namespace PresentationLayer
                 hidePopUpMenu();
         }
 
+        //Pocetak metode za otvaranje drugih formi unutar panela panelChildForm
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        //Kraj metode
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
+        //Side menu start
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             showPopUpMenu(panelPopUp);
@@ -56,13 +75,34 @@ namespace PresentationLayer
         private void buttonAdmin_Click(object sender, EventArgs e)
         {
             hidePopUpMenu();
-            //Code...
+            openChildForm(new FormAdmin());
         }
 
         private void buttonUser_Click_1(object sender, EventArgs e)
         {
             hidePopUpMenu();
-            //Code...
+            openChildForm(new FormUser());
         }
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            //openChildForm(new FormRegister());
+        }
+
+        private void buttonCheck_Click(object sender, EventArgs e)
+        {
+            //openChildForm(FormCheck);
+        }
+
+        private void buttonPayment_Click(object sender, EventArgs e)
+        {
+            //openChildForm(FormPayment);
+        }
+
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+            customizeDesing();
+        }
+        //Side menu end
     }
 }

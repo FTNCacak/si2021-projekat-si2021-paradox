@@ -8,3 +8,15 @@ C:\Users\skezla\Desktop\Golden Road\PresentationLayer\obj\Debug\PresentationLaye
 C:\Users\skezla\Desktop\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\skezla\Desktop\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
 C:\Users\skezla\Desktop\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormGoldenRoad.resources
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormAdmin.resources
+C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormUser.resources
