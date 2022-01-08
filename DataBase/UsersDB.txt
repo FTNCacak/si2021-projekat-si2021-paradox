@@ -1,0 +1,19 @@
+CREATE TABLE [dbo].[Users] (
+    [JMBG] BIGINT   NOT NULL,
+    [Ime]           NVARCHAR (15) NOT NULL,
+    [Prezime]       NVARCHAR (25) NOT NULL,
+    [Br_telefona]   INT           NOT NULL,
+    [Adresa]        NVARCHAR (50) NULL,
+    [Mail_adresa]   NVARCHAR (20) NULL,
+    [Stanje_racuna] DECIMAL (18)  NOT NULL,
+    [Broj_racuna_f] BIGINT        NOT NULL,
+    [Broj_racuna_s] BIGINT        NULL,
+    [Broj_racuna_t] BIGINT        NULL,
+    [Sifra]         NVARCHAR (50) NOT NULL,
+    [Korisnicki_id] NVARCHAR(50) NOT NULL, 
+    PRIMARY KEY CLUSTERED ([JMBG] ASC)
+);
+
+
+INSERT INTO [dbo].[Users] ([JMBG], [Ime], [Prezime], [Br_telefona], [Adresa], [Mail_adresa], [Stanje_racuna], [Broj_racuna_f], [Broj_racuna_s], [Broj_racuna_t], [Sifra], [Korisnicki_id]) VALUES (2703000284547, N'Stefan', N'Nasic', 615595859, N'Jagodina BB', N'stefannasic00', CAST(15478 AS Decimal(18, 0)), 445778458, NULL, NULL, N'12345', N'skezla')
+INSERT INTO [dbo].[Users] ([JMBG], [Ime], [Prezime], [Br_telefona], [Adresa], [Mail_adresa], [Stanje_racuna], [Broj_racuna_f], [Broj_racuna_s], [Broj_racuna_t], [Sifra], [Korisnicki_id]) VALUES (2702001785358, N'Milica', N'Sebic', 652722350, N'Rudjinci 268', N'milsebmici', CAST(12458 AS Decimal(18, 0)), 778998745, NULL, NULL, N'789654', N'zzomie')

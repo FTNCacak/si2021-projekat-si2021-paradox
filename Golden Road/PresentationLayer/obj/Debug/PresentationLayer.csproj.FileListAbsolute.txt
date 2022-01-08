@@ -20,3 +20,15 @@ C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\Presenta
 C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
 C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormAdmin.resources
 C:\Users\skezla\Desktop\Rezerva\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormUser.resources
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormUser.resources
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormGoldenRoad.resources
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormAdmin.resources
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\milse\Documents\SI2021\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
