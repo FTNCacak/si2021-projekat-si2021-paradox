@@ -17,9 +17,28 @@ namespace PresentationLayer
             InitializeComponent();
         }
 
+        public Form activeForm = null;
+        public void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            FormGoldenRoad.fGRinstance.pnlChildForm.Controls.Add(childForm);
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void buttonAdminLogin_Click(object sender, EventArgs e)
         {
-
+            FormGoldenRoad.fGRinstance.btnLogin.Visible = false;
+            FormGoldenRoad.fGRinstance.btnRegister.Visible = false;
+            FormGoldenRoad.fGRinstance.btnLogout.Visible = true;
+            FormGoldenRoad.fGRinstance.btnCheck.Visible = true;
+            openChildForm(new FormYHSLI());
+            //Staviti sve ovo u uslov koji je ispunjen
         }
     }
 }

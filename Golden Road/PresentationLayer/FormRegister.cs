@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PresentationLayer
 {
-    public partial class FormUser : Form
+    public partial class FormRegister : Form
     {
-        public FormUser()
+        public FormRegister()
         {
             InitializeComponent();
         }
@@ -31,15 +31,19 @@ namespace PresentationLayer
             childForm.Show();
         }
 
-        private void buttonUserLogin_Click(object sender, EventArgs e)
+        private void buttonRegister_Click(object sender, EventArgs e)
         {
             FormGoldenRoad.fGRinstance.btnLogin.Visible = false;
             FormGoldenRoad.fGRinstance.btnRegister.Visible = false;
             FormGoldenRoad.fGRinstance.btnLogout.Visible = true;
             FormGoldenRoad.fGRinstance.btnPayment.Visible = true;
-            openChildForm(new FormYHSLI());
+            openChildForm(new FormYHSR());
             //Staviti sve ovo u uslov koji je ispunjen
+        }
 
+        private void FormRegister_Load(object sender, EventArgs e)
+        {
+        
         }
     }
 }
