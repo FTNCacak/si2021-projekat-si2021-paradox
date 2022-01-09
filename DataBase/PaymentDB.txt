@@ -1,12 +1,11 @@
-CREATE TABLE [dbo].[Payments] (
-    [Broj_racuna]    BIGINT        NOT NULL,
-    [Poziv_na_br]    INT           NOT NULL,
-    [Kolicina]       DECIMAL (18)  NOT NULL,
-    [Primalac]       NVARCHAR (50) NOT NULL,
-    [Sifra_placanja] INT           NOT NULL,
-    [Mesto_prijema]  NVARCHAR (50) NOT NULL,
-    [Datum_prijema]  DATE          NOT NULL,
-    [Svrha_uplate]   NVARCHAR (50) NULL,
-    PRIMARY KEY CLUSTERED ([Broj_racuna] ASC)
-);
-
+CREATE TABLE [dbo].[Payments]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Naziv] NVARCHAR(50) NULL, 
+    [Broj_Racuna_Primaoca] BIGINT NOT NULL, 
+    [Model] INT NOT NULL, 
+    [Poziv_Na_Broj] BIGINT NOT NULL, 
+    [Iznos] DECIMAL(18, 2) NOT NULL, 
+    [Svrha_Uplate] NVARCHAR(50) NULL, 
+    [Datum] DATE NOT NULL
+)
