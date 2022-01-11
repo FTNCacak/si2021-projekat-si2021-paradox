@@ -115,6 +115,84 @@ namespace DataLayer
 
         }
 
+        public int UpdateUser(User user)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(connString))
+            {
+                
+
+                string sqlCommand = "UPDATE Users SET Ime = @Ime, Prezime = @Prezime, Korisnicki_Id = @Korisnicki_Id, Lozinka = @Lozinka," +
+                    " JMBG = @JMBG , Mail_Adresa = @Mail_Adresa, Broj_Telefona = @Broj_Telefona, Adresa = @Adresa, Broj_Racuna_F = @Broj_Racuna_F," +
+                    " Broj_Racuna_S = @Broj_Racuna_S, Broj_Racuna_T= @Broj_Racuna_T, Stanje_Na_Racunu = @Stanje_Na_Racunu WHERE Id = @Id";
+                SqlCommand command = new SqlCommand(sqlCommand, sqlConnection);
+                command.Parameters.AddWithValue("@Id", user.Id);
+                command.Parameters.AddWithValue("@Ime", user.Ime);
+                command.Parameters.AddWithValue("@Prezime", user.Prezime);
+                command.Parameters.AddWithValue("@Korisnicki_Id", user.Korisnicki_Id);
+                command.Parameters.AddWithValue("@Lozinka", user.Lozinka);
+                command.Parameters.AddWithValue("@JMBG", user.JMBG);
+                command.Parameters.AddWithValue("@Mail_Adresa", user.Mail_Adresa);
+                command.Parameters.AddWithValue("@Broj_Telefona", user.Broj_Telefona);
+                command.Parameters.AddWithValue("@Adresa", user.Adresa);
+                command.Parameters.AddWithValue("@Broj_Racuna_F", user.Broj_Racuna_F);
+                command.Parameters.AddWithValue("@Broj_Racuna_S", user.Broj_Racuna_S);
+                command.Parameters.AddWithValue("@Broj_Racuna_T", user.Broj_Racuna_T);
+                command.Parameters.AddWithValue("@Stanje_Na_Racunu", user.Stanje_Na_Racunu);
+
+                sqlConnection.Open();
+
+                return command.ExecuteNonQuery();
+            }
+        }
+        public int UpdatePayment(Payment payment)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(connString))
+            {
+                
+
+                string sqlCommand = "UPDATE Payments SET Naziv = @Naziv, Broj_Racuna_Primaoca = @Broj_Racuna_Primaoca, Model = @Model," +
+                    " Poziv_Na_Broj = @Poziv_Na_Broj, Iznos = @Iznos, Svrha_Uplate = @Svrha_Uplate, Datum = @Datum WHERE Id = @Id";
+                SqlCommand command = new SqlCommand(sqlCommand, sqlConnection);
+                command.Parameters.AddWithValue("@Id", payment.Id);
+                command.Parameters.AddWithValue("@Naziv", payment.Naziv);
+                command.Parameters.AddWithValue("@Broj_Racuna_Primaoca", payment.Broj_Racuna_Primaoca);
+                command.Parameters.AddWithValue("@Model", payment.Model);
+                command.Parameters.AddWithValue("@Poziv_Na_Broj", payment.Poziv_Na_Broj);
+                command.Parameters.AddWithValue("@Iznos", payment.Iznos);
+                command.Parameters.AddWithValue("@Svrha_Uplate", payment.Svrha_Uplate);
+                command.Parameters.AddWithValue("@Datum", payment.Datum);
+
+                sqlConnection.Open();
+
+                return command.ExecuteNonQuery();
+            }
+        }
+        public int DeleteUser(int id)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(connString))
+            {
+                sqlConnection.Open();
+
+                SqlCommand command = new SqlCommand();
+                command.Connection = sqlConnection;
+                command.CommandText = "DELETE FROM Users WHERE Id = " + id;
+
+                return command.ExecuteNonQuery();
+            }
+        }
+        public int DeletePayment(int id)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(connString))
+            {
+                sqlConnection.Open();
+
+                SqlCommand command = new SqlCommand();
+                command.Connection = sqlConnection;
+                command.CommandText = "DELETE FROM Payments WHERE Id = " + id;
+
+                return command.ExecuteNonQuery();
+            }
+        }
 
     }
 }
