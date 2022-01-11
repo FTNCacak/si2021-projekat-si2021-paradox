@@ -1,23 +1,24 @@
 ﻿using DataLayer;
-using DataLayer.Models;
+using Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Shared.Interfaces;
 
 namespace BusinessLayer
 {
-    public class GoldenRoadBusiness
+    public class GoldenRoadBusiness:IGoldenRoadBusiness
     {
         readonly GoldenRoadRepository goldenRoadtRepository = new GoldenRoadRepository();
 
-        public List<GoldenRoad> GetUsers()
+        public List<User> GetAllUsers()
         {
             return goldenRoadtRepository.GetAllUsers();
         }
 
-        public bool InsertUsers(User user)
+        public bool InsertUser(User user)
         {
             return goldenRoadtRepository.InsertUser(user) != 0;
         }
@@ -26,5 +27,11 @@ namespace BusinessLayer
         {
             return goldenRoadtRepository.InsertPayment(payment) != 0;
         }
+
+        public List<Payment> GetAllPayments()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
