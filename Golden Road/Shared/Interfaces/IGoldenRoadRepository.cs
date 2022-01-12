@@ -13,6 +13,6 @@ namespace Shared.Interfaces
         int InsertUser(User user);
 
         List<Payment> GetAllPayments();
-        int InsertPayment(Payment payment);
+        int InsertPayment(Payment payment, User user);
     }
 }

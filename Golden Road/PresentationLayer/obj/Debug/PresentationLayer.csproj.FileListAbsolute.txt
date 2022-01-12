@@ -50,15 +50,6 @@ C:\Users\skezla\Desktop\ZZomie\Golden Road\PresentationLayer\obj\Debug\Presentat
 C:\Users\skezla\Desktop\ZZomie\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormWelcome.resources
 C:\Users\skezla\Desktop\ZZomie\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormYHSLI.resources
 C:\Users\skezla\Desktop\ZZomie\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormYHSR.resources
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.pdb
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\Shared.dll
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\DataLayer.pdb
-C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\Shared.pdb
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormCheck.resources
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormPayment.resources
@@ -72,6 +63,15 @@ C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\P
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\bin\Debug\Shared.pdb
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\aleks\Desktop\Golden Road App\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb

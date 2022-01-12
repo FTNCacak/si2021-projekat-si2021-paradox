@@ -30,6 +30,7 @@ namespace PresentationLayer
         private void InitializeComponent()
         {
             this.panelPayment = new System.Windows.Forms.Panel();
+            this.textBoxFromAcc = new System.Windows.Forms.TextBox();
             this.labelState = new System.Windows.Forms.Label();
             this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
             this.buttonPayment = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@ namespace PresentationLayer
             this.labelAmount = new System.Windows.Forms.Label();
             this.labelFromAcc = new System.Windows.Forms.Label();
             this.labelPayment = new System.Windows.Forms.Label();
-            this.textBoxFromAcc = new System.Windows.Forms.TextBox();
             this.panelPayment.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +83,19 @@ namespace PresentationLayer
             this.panelPayment.Name = "panelPayment";
             this.panelPayment.Size = new System.Drawing.Size(751, 378);
             this.panelPayment.TabIndex = 1;
+            // 
+            // textBoxFromAcc
+            // 
+            this.textBoxFromAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBoxFromAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxFromAcc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxFromAcc.Enabled = false;
+            this.textBoxFromAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxFromAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxFromAcc.Location = new System.Drawing.Point(193, 89);
+            this.textBoxFromAcc.Name = "textBoxFromAcc";
+            this.textBoxFromAcc.Size = new System.Drawing.Size(150, 22);
+            this.textBoxFromAcc.TabIndex = 35;
             // 
             // labelState
             // 
@@ -322,18 +335,6 @@ namespace PresentationLayer
             this.labelPayment.Size = new System.Drawing.Size(129, 25);
             this.labelPayment.TabIndex = 8;
             this.labelPayment.Text = "PLAĆANJE";
-            // 
-            // textBoxFromAcc
-            // 
-            this.textBoxFromAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxFromAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxFromAcc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxFromAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFromAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxFromAcc.Location = new System.Drawing.Point(193, 89);
-            this.textBoxFromAcc.Name = "textBoxFromAcc";
-            this.textBoxFromAcc.Size = new System.Drawing.Size(150, 22);
-            this.textBoxFromAcc.TabIndex = 35;
             // 
             // FormPayment
             // 

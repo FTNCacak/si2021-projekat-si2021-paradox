@@ -16,5 +16,6 @@ namespace Shared.Models
         public decimal Iznos { get; set; }
         public string Svrha_Uplate { get; set; }
         public DateTime Datum { get; set; }
+        public long Broj_Racuna_Uplatioca { get; set; }
     }
 }

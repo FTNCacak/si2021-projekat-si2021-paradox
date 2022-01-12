@@ -38,10 +38,9 @@ namespace DataLayer
                     user.Mail_Adresa = dataReader.GetString(6);
                     user.Broj_Telefona = dataReader.GetInt64(7);
                     user.Adresa = dataReader.GetString(8);
-                    user.Broj_Racuna_F = dataReader.GetInt64(9);
-                    user.Broj_Racuna_S = dataReader.GetInt64(10);
-                    user.Broj_Racuna_T = dataReader.GetInt64(11);
-                    user.Stanje_Na_Racunu = dataReader.GetDecimal(12);
+                    user.Broj_Racuna = dataReader.GetInt64(9);
+                
+                    user.Stanje_Na_Racunu = dataReader.GetDecimal(10);
 
                     userList.Add(user);
 
@@ -75,7 +74,7 @@ namespace DataLayer
                     payment.Iznos = dataReader.GetDecimal(5);
                     payment.Svrha_Uplate = dataReader.GetString(6);
                     payment.Datum = dataReader.GetDateTime(7);
-                   
+                    payment.Broj_Racuna_Uplatioca = dataReader.GetInt64(8);
 
                    paymentList.Add(payment);
 
@@ -91,23 +90,23 @@ namespace DataLayer
                 sqlConnection.Open();
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
-                command.CommandText = string.Format("INSERT INTO Users VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}')",
-                    user.Ime, user.Prezime, user.Korisnicki_Id, user.Lozinka, user.JMBG, user.Mail_Adresa, user.Broj_Telefona, user.Adresa, user.Broj_Racuna_F, user.Broj_Racuna_S, user.Broj_Racuna_T, user.Stanje_Na_Racunu);
+                command.CommandText = string.Format("INSERT INTO Users VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')",
+                    user.Ime, user.Prezime, user.Korisnicki_Id, user.Lozinka, user.JMBG, user.Mail_Adresa, user.Broj_Telefona, user.Adresa, user.Broj_Racuna, user.Stanje_Na_Racunu);
 
                 return command.ExecuteNonQuery();
             }
 
 
         }
-        public int InsertPayment(Payment payment)
+        public int InsertPayment(Payment payment, User user)
         {
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 sqlConnection.Open();
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
-                command.CommandText = string.Format("INSERT INTO Payments VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
-                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum);
+                command.CommandText = string.Format("INSERT INTO Payments VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}')",
+                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum, payment.Broj_Racuna_Uplatioca=user.Broj_Racuna);
 
                 return command.ExecuteNonQuery();
             }
@@ -122,8 +121,8 @@ namespace DataLayer
                 
 
                 string sqlCommand = "UPDATE Users SET Ime = @Ime, Prezime = @Prezime, Korisnicki_Id = @Korisnicki_Id, Lozinka = @Lozinka," +
-                    " JMBG = @JMBG , Mail_Adresa = @Mail_Adresa, Broj_Telefona = @Broj_Telefona, Adresa = @Adresa, Broj_Racuna_F = @Broj_Racuna_F," +
-                    " Broj_Racuna_S = @Broj_Racuna_S, Broj_Racuna_T= @Broj_Racuna_T, Stanje_Na_Racunu = @Stanje_Na_Racunu WHERE Id = @Id";
+                    " JMBG = @JMBG , Mail_Adresa = @Mail_Adresa, Broj_Telefona = @Broj_Telefona, Adresa = @Adresa, Broj_Racuna= @Broj_Racuna," +
+                    " Stanje_Na_Racunu = @Stanje_Na_Racunu WHERE Id = @Id";
                 SqlCommand command = new SqlCommand(sqlCommand, sqlConnection);
                 command.Parameters.AddWithValue("@Id", user.Id);
                 command.Parameters.AddWithValue("@Ime", user.Ime);
@@ -134,9 +133,8 @@ namespace DataLayer
                 command.Parameters.AddWithValue("@Mail_Adresa", user.Mail_Adresa);
                 command.Parameters.AddWithValue("@Broj_Telefona", user.Broj_Telefona);
                 command.Parameters.AddWithValue("@Adresa", user.Adresa);
-                command.Parameters.AddWithValue("@Broj_Racuna_F", user.Broj_Racuna_F);
-                command.Parameters.AddWithValue("@Broj_Racuna_S", user.Broj_Racuna_S);
-                command.Parameters.AddWithValue("@Broj_Racuna_T", user.Broj_Racuna_T);
+                command.Parameters.AddWithValue("@Broj_Racuna", user.Broj_Racuna);
+              
                 command.Parameters.AddWithValue("@Stanje_Na_Racunu", user.Stanje_Na_Racunu);
 
                 sqlConnection.Open();

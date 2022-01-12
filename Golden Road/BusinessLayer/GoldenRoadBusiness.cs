@@ -23,9 +23,9 @@ namespace BusinessLayer
             return goldenRoadtRepository.InsertUser(user) != 0;
         }
 
-        public bool InsertPayment(Payment payment)
+        public bool InsertPayment(Payment payment,User user)
         {
-            return goldenRoadtRepository.InsertPayment(payment) != 0;
+            return goldenRoadtRepository.InsertPayment(payment,user) != 0;
         }
 
         public List<Payment> GetAllPayments()

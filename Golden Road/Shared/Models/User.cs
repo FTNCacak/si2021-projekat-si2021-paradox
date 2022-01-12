@@ -16,12 +16,8 @@ namespace Shared.Models
         public long JMBG { get; set; }
         public string Mail_Adresa { get; set; }
         public long Broj_Telefona { get; set; }
-
         public string Adresa { get; set; }
-        public long Broj_Racuna_F { get; set; }
-        public long Broj_Racuna_S { get; set; }
-        public long Broj_Racuna_T { get; set; }
-
+        public long Broj_Racuna{ get; set; }
         public decimal Stanje_Na_Racunu { get; set; }
     }
 }

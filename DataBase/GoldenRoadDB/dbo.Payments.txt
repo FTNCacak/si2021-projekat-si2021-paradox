@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[Payments] (
+    [Id]                   INT             IDENTITY (1, 1) NOT NULL,
+    [Naziv]                NVARCHAR (50)   NULL,
+    [Broj_Racuna_Primaoca] BIGINT          NOT NULL,
+    [Model]                INT             NOT NULL,
+    [Poziv_Na_Broj]        BIGINT          NOT NULL,
+    [Iznos]                DECIMAL (18, 2) NOT NULL,
+    [Svrha_Uplate]         NVARCHAR (50)   NULL,
+    [Datum]                DATE            NOT NULL,
+    [Broj_Racuna_Uplatioca] BIGINT NULL, 
+    PRIMARY KEY CLUSTERED ([Id] ASC), 
+    CONSTRAINT [FK] FOREIGN KEY ([Broj_Racuna_Uplatioca]) REFERENCES [Users]([Broj_Racuna])
+);
+
