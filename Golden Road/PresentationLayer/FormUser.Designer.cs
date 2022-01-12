@@ -102,9 +102,9 @@ namespace PresentationLayer
             this.labelUserId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.labelUserId.Location = new System.Drawing.Point(47, 91);
             this.labelUserId.Name = "labelUserId";
-            this.labelUserId.Size = new System.Drawing.Size(110, 16);
+            this.labelUserId.Size = new System.Drawing.Size(128, 16);
             this.labelUserId.TabIndex = 3;
-            this.labelUserId.Text = "KORISNIČKI ID";
+            this.labelUserId.Text = "KORISNIČKO IME";
             // 
             // textBoxUserPassword
             // 

@@ -33,9 +33,7 @@ namespace PresentationLayer
             this.labelAdminLogin = new System.Windows.Forms.Label();
             this.buttonAdminLogin = new System.Windows.Forms.Button();
             this.labelAdminPassword = new System.Windows.Forms.Label();
-            this.labelAdminId = new System.Windows.Forms.Label();
             this.textBoxAdminPassword = new System.Windows.Forms.TextBox();
-            this.textBoxAdminId = new System.Windows.Forms.TextBox();
             this.panelLoginAdmin.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,9 +43,7 @@ namespace PresentationLayer
             this.panelLoginAdmin.Controls.Add(this.labelAdminLogin);
             this.panelLoginAdmin.Controls.Add(this.buttonAdminLogin);
             this.panelLoginAdmin.Controls.Add(this.labelAdminPassword);
-            this.panelLoginAdmin.Controls.Add(this.labelAdminId);
             this.panelLoginAdmin.Controls.Add(this.textBoxAdminPassword);
-            this.panelLoginAdmin.Controls.Add(this.textBoxAdminId);
             this.panelLoginAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelLoginAdmin.Location = new System.Drawing.Point(100, 100);
             this.panelLoginAdmin.Name = "panelLoginAdmin";
@@ -88,23 +84,11 @@ namespace PresentationLayer
             this.labelAdminPassword.AutoSize = true;
             this.labelAdminPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAdminPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelAdminPassword.Location = new System.Drawing.Point(47, 142);
+            this.labelAdminPassword.Location = new System.Drawing.Point(47, 91);
             this.labelAdminPassword.Name = "labelAdminPassword";
             this.labelAdminPassword.Size = new System.Drawing.Size(70, 16);
-            this.labelAdminPassword.TabIndex = 4;
+            this.labelAdminPassword.TabIndex = 3;
             this.labelAdminPassword.Text = "LOZINKA";
-            // 
-            // labelAdminId
-            // 
-            this.labelAdminId.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelAdminId.AutoSize = true;
-            this.labelAdminId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAdminId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelAdminId.Location = new System.Drawing.Point(47, 91);
-            this.labelAdminId.Name = "labelAdminId";
-            this.labelAdminId.Size = new System.Drawing.Size(152, 16);
-            this.labelAdminId.TabIndex = 3;
-            this.labelAdminId.Text = "ADMINISTRATOR ID";
             // 
             // textBoxAdminPassword
             // 
@@ -113,22 +97,10 @@ namespace PresentationLayer
             this.textBoxAdminPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxAdminPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAdminPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAdminPassword.Location = new System.Drawing.Point(382, 139);
+            this.textBoxAdminPassword.Location = new System.Drawing.Point(382, 88);
             this.textBoxAdminPassword.Name = "textBoxAdminPassword";
             this.textBoxAdminPassword.Size = new System.Drawing.Size(200, 22);
-            this.textBoxAdminPassword.TabIndex = 1;
-            // 
-            // textBoxAdminId
-            // 
-            this.textBoxAdminId.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBoxAdminId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxAdminId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAdminId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAdminId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAdminId.Location = new System.Drawing.Point(382, 88);
-            this.textBoxAdminId.Name = "textBoxAdminId";
-            this.textBoxAdminId.Size = new System.Drawing.Size(200, 22);
-            this.textBoxAdminId.TabIndex = 0;
+            this.textBoxAdminPassword.TabIndex = 0;
             // 
             // FormAdmin
             // 
@@ -150,10 +122,8 @@ namespace PresentationLayer
 
         private System.Windows.Forms.Panel panelLoginAdmin;
         private System.Windows.Forms.Label labelAdminPassword;
-        private System.Windows.Forms.Label labelAdminId;
-        private System.Windows.Forms.TextBox textBoxAdminPassword;
-        private System.Windows.Forms.TextBox textBoxAdminId;
         private System.Windows.Forms.Button buttonAdminLogin;
         private System.Windows.Forms.Label labelAdminLogin;
+        private System.Windows.Forms.TextBox textBoxAdminPassword;
     }
 }

@@ -40,7 +40,7 @@ namespace PresentationLayer
             // pictureBoxYHSR
             // 
             this.pictureBoxYHSR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxYHSR.Image = global::PresentationLayer.Properties.Resources.yhsr;
+            this.pictureBoxYHSR.Image = global::PresentationLayer.Properties.Resources.yhsr1;
             this.pictureBoxYHSR.Location = new System.Drawing.Point(0, 120);
             this.pictureBoxYHSR.Name = "pictureBoxYHSR";
             this.pictureBoxYHSR.Size = new System.Drawing.Size(821, 208);

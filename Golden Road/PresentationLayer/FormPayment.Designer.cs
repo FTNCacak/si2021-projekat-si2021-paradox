@@ -31,16 +31,15 @@ namespace PresentationLayer
         {
             this.panelPayment = new System.Windows.Forms.Panel();
             this.labelState = new System.Windows.Forms.Label();
-            this.comboBoxFrom = new System.Windows.Forms.ComboBox();
             this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
             this.buttonPayment = new System.Windows.Forms.Button();
             this.textBoxPurpose = new System.Windows.Forms.TextBox();
             this.textBoxAmount = new System.Windows.Forms.TextBox();
             this.textBoxReference = new System.Windows.Forms.TextBox();
             this.textBoxModel = new System.Windows.Forms.TextBox();
-            this.textBoxTo = new System.Windows.Forms.TextBox();
+            this.textBoxToAcc = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
-            this.labelTo = new System.Windows.Forms.Label();
+            this.labelToAcc = new System.Windows.Forms.Label();
             this.labelReference = new System.Windows.Forms.Label();
             this.labelRecipient = new System.Windows.Forms.Label();
             this.labelDetails = new System.Windows.Forms.Label();
@@ -49,25 +48,26 @@ namespace PresentationLayer
             this.labelPurpose = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
             this.labelAmount = new System.Windows.Forms.Label();
-            this.labelFrom = new System.Windows.Forms.Label();
+            this.labelFromAcc = new System.Windows.Forms.Label();
             this.labelPayment = new System.Windows.Forms.Label();
+            this.textBoxFromAcc = new System.Windows.Forms.TextBox();
             this.panelPayment.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelPayment
             // 
             this.panelPayment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.panelPayment.Controls.Add(this.textBoxFromAcc);
             this.panelPayment.Controls.Add(this.labelState);
-            this.panelPayment.Controls.Add(this.comboBoxFrom);
             this.panelPayment.Controls.Add(this.dateTimePickerDate);
             this.panelPayment.Controls.Add(this.buttonPayment);
             this.panelPayment.Controls.Add(this.textBoxPurpose);
             this.panelPayment.Controls.Add(this.textBoxAmount);
             this.panelPayment.Controls.Add(this.textBoxReference);
             this.panelPayment.Controls.Add(this.textBoxModel);
-            this.panelPayment.Controls.Add(this.textBoxTo);
+            this.panelPayment.Controls.Add(this.textBoxToAcc);
             this.panelPayment.Controls.Add(this.textBoxName);
-            this.panelPayment.Controls.Add(this.labelTo);
+            this.panelPayment.Controls.Add(this.labelToAcc);
             this.panelPayment.Controls.Add(this.labelReference);
             this.panelPayment.Controls.Add(this.labelRecipient);
             this.panelPayment.Controls.Add(this.labelDetails);
@@ -76,7 +76,7 @@ namespace PresentationLayer
             this.panelPayment.Controls.Add(this.labelPurpose);
             this.panelPayment.Controls.Add(this.labelName);
             this.panelPayment.Controls.Add(this.labelAmount);
-            this.panelPayment.Controls.Add(this.labelFrom);
+            this.panelPayment.Controls.Add(this.labelFromAcc);
             this.panelPayment.Controls.Add(this.labelPayment);
             this.panelPayment.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPayment.Location = new System.Drawing.Point(35, 35);
@@ -95,18 +95,6 @@ namespace PresentationLayer
             this.labelState.Size = new System.Drawing.Size(168, 16);
             this.labelState.TabIndex = 34;
             this.labelState.Text = "STANJE NA RAČUNU: ";
-            // 
-            // comboBoxFrom
-            // 
-            this.comboBoxFrom.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBoxFrom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.comboBoxFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.comboBoxFrom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.comboBoxFrom.FormattingEnabled = true;
-            this.comboBoxFrom.Location = new System.Drawing.Point(193, 91);
-            this.comboBoxFrom.Name = "comboBoxFrom";
-            this.comboBoxFrom.Size = new System.Drawing.Size(150, 24);
-            this.comboBoxFrom.TabIndex = 33;
             // 
             // dateTimePickerDate
             // 
@@ -180,17 +168,17 @@ namespace PresentationLayer
             this.textBoxModel.Size = new System.Drawing.Size(150, 22);
             this.textBoxModel.TabIndex = 23;
             // 
-            // textBoxTo
+            // textBoxToAcc
             // 
-            this.textBoxTo.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxTo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxTo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxTo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxTo.Location = new System.Drawing.Point(193, 233);
-            this.textBoxTo.Name = "textBoxTo";
-            this.textBoxTo.Size = new System.Drawing.Size(150, 22);
-            this.textBoxTo.TabIndex = 22;
+            this.textBoxToAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBoxToAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxToAcc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxToAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxToAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxToAcc.Location = new System.Drawing.Point(193, 233);
+            this.textBoxToAcc.Name = "textBoxToAcc";
+            this.textBoxToAcc.Size = new System.Drawing.Size(150, 22);
+            this.textBoxToAcc.TabIndex = 22;
             // 
             // textBoxName
             // 
@@ -204,17 +192,17 @@ namespace PresentationLayer
             this.textBoxName.Size = new System.Drawing.Size(150, 22);
             this.textBoxName.TabIndex = 21;
             // 
-            // labelTo
+            // labelToAcc
             // 
-            this.labelTo.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelTo.AutoSize = true;
-            this.labelTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelTo.Location = new System.Drawing.Point(48, 235);
-            this.labelTo.Name = "labelTo";
-            this.labelTo.Size = new System.Drawing.Size(121, 16);
-            this.labelTo.TabIndex = 19;
-            this.labelTo.Text = "*BROJ RAČUNA";
+            this.labelToAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelToAcc.AutoSize = true;
+            this.labelToAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelToAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.labelToAcc.Location = new System.Drawing.Point(48, 235);
+            this.labelToAcc.Name = "labelToAcc";
+            this.labelToAcc.Size = new System.Drawing.Size(121, 16);
+            this.labelToAcc.TabIndex = 19;
+            this.labelToAcc.Text = "*BROJ RAČUNA";
             // 
             // labelReference
             // 
@@ -312,17 +300,17 @@ namespace PresentationLayer
             this.labelAmount.TabIndex = 10;
             this.labelAmount.Text = "*IZNOS";
             // 
-            // labelFrom
+            // labelFromAcc
             // 
-            this.labelFrom.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelFrom.AutoSize = true;
-            this.labelFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFrom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelFrom.Location = new System.Drawing.Point(48, 96);
-            this.labelFrom.Name = "labelFrom";
-            this.labelFrom.Size = new System.Drawing.Size(101, 16);
-            this.labelFrom.TabIndex = 9;
-            this.labelFrom.Text = "*SA RAČUNA";
+            this.labelFromAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelFromAcc.AutoSize = true;
+            this.labelFromAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFromAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.labelFromAcc.Location = new System.Drawing.Point(48, 96);
+            this.labelFromAcc.Name = "labelFromAcc";
+            this.labelFromAcc.Size = new System.Drawing.Size(101, 16);
+            this.labelFromAcc.TabIndex = 9;
+            this.labelFromAcc.Text = "*SA RAČUNA";
             // 
             // labelPayment
             // 
@@ -334,6 +322,18 @@ namespace PresentationLayer
             this.labelPayment.Size = new System.Drawing.Size(129, 25);
             this.labelPayment.TabIndex = 8;
             this.labelPayment.Text = "PLAĆANJE";
+            // 
+            // textBoxFromAcc
+            // 
+            this.textBoxFromAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBoxFromAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxFromAcc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxFromAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxFromAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxFromAcc.Location = new System.Drawing.Point(193, 89);
+            this.textBoxFromAcc.Name = "textBoxFromAcc";
+            this.textBoxFromAcc.Size = new System.Drawing.Size(150, 22);
+            this.textBoxFromAcc.TabIndex = 35;
             // 
             // FormPayment
             // 
@@ -359,9 +359,9 @@ namespace PresentationLayer
         private System.Windows.Forms.TextBox textBoxAmount;
         private System.Windows.Forms.TextBox textBoxReference;
         private System.Windows.Forms.TextBox textBoxModel;
-        private System.Windows.Forms.TextBox textBoxTo;
+        private System.Windows.Forms.TextBox textBoxToAcc;
         private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.Label labelTo;
+        private System.Windows.Forms.Label labelToAcc;
         private System.Windows.Forms.Label labelReference;
         private System.Windows.Forms.Label labelRecipient;
         private System.Windows.Forms.Label labelDetails;
@@ -370,10 +370,10 @@ namespace PresentationLayer
         private System.Windows.Forms.Label labelPurpose;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Label labelAmount;
-        private System.Windows.Forms.Label labelFrom;
+        private System.Windows.Forms.Label labelFromAcc;
         private System.Windows.Forms.Label labelPayment;
         private System.Windows.Forms.DateTimePicker dateTimePickerDate;
-        private System.Windows.Forms.ComboBox comboBoxFrom;
         private System.Windows.Forms.Label labelState;
+        private System.Windows.Forms.TextBox textBoxFromAcc;
     }
 }

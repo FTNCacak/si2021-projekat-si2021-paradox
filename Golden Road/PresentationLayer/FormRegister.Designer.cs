@@ -31,21 +31,15 @@ namespace PresentationLayer
         {
             this.panelRegister = new System.Windows.Forms.Panel();
             this.buttonRegister = new System.Windows.Forms.Button();
-            this.textBoxAcc2 = new System.Windows.Forms.TextBox();
             this.textBoxAdress = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
-            this.textBoxAcc3 = new System.Windows.Forms.TextBox();
-            this.textBoxAcc1 = new System.Windows.Forms.TextBox();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.textBoxJmbg = new System.Windows.Forms.TextBox();
             this.textBoxUserId = new System.Windows.Forms.TextBox();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
             this.labelJmbg = new System.Windows.Forms.Label();
-            this.labelAcc3 = new System.Windows.Forms.Label();
-            this.labelAcc1 = new System.Windows.Forms.Label();
-            this.labelAcc2 = new System.Windows.Forms.Label();
             this.labelAdress = new System.Windows.Forms.Label();
             this.labelPhone = new System.Windows.Forms.Label();
             this.labelEmail = new System.Windows.Forms.Label();
@@ -61,21 +55,15 @@ namespace PresentationLayer
             // 
             this.panelRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panelRegister.Controls.Add(this.buttonRegister);
-            this.panelRegister.Controls.Add(this.textBoxAcc2);
             this.panelRegister.Controls.Add(this.textBoxAdress);
             this.panelRegister.Controls.Add(this.textBoxEmail);
             this.panelRegister.Controls.Add(this.textBoxPassword);
             this.panelRegister.Controls.Add(this.textBoxLastName);
-            this.panelRegister.Controls.Add(this.textBoxAcc3);
-            this.panelRegister.Controls.Add(this.textBoxAcc1);
             this.panelRegister.Controls.Add(this.textBoxPhone);
             this.panelRegister.Controls.Add(this.textBoxJmbg);
             this.panelRegister.Controls.Add(this.textBoxUserId);
             this.panelRegister.Controls.Add(this.textBoxFirstName);
             this.panelRegister.Controls.Add(this.labelJmbg);
-            this.panelRegister.Controls.Add(this.labelAcc3);
-            this.panelRegister.Controls.Add(this.labelAcc1);
-            this.panelRegister.Controls.Add(this.labelAcc2);
             this.panelRegister.Controls.Add(this.labelAdress);
             this.panelRegister.Controls.Add(this.labelPhone);
             this.panelRegister.Controls.Add(this.labelEmail);
@@ -106,18 +94,6 @@ namespace PresentationLayer
             this.buttonRegister.Text = "REGISTRUJ SE";
             this.buttonRegister.UseVisualStyleBackColor = false;
             this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
-            // 
-            // textBoxAcc2
-            // 
-            this.textBoxAcc2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBoxAcc2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxAcc2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAcc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAcc2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAcc2.Location = new System.Drawing.Point(550, 283);
-            this.textBoxAcc2.Name = "textBoxAcc2";
-            this.textBoxAcc2.Size = new System.Drawing.Size(150, 22);
-            this.textBoxAcc2.TabIndex = 30;
             // 
             // textBoxAdress
             // 
@@ -166,30 +142,6 @@ namespace PresentationLayer
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(150, 22);
             this.textBoxLastName.TabIndex = 26;
-            // 
-            // textBoxAcc3
-            // 
-            this.textBoxAcc3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxAcc3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxAcc3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAcc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAcc3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAcc3.Location = new System.Drawing.Point(193, 328);
-            this.textBoxAcc3.Name = "textBoxAcc3";
-            this.textBoxAcc3.Size = new System.Drawing.Size(150, 22);
-            this.textBoxAcc3.TabIndex = 25;
-            // 
-            // textBoxAcc1
-            // 
-            this.textBoxAcc1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBoxAcc1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxAcc1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAcc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAcc1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAcc1.Location = new System.Drawing.Point(193, 283);
-            this.textBoxAcc1.Name = "textBoxAcc1";
-            this.textBoxAcc1.Size = new System.Drawing.Size(150, 22);
-            this.textBoxAcc1.TabIndex = 24;
             // 
             // textBoxPhone
             // 
@@ -251,42 +203,6 @@ namespace PresentationLayer
             this.labelJmbg.TabIndex = 19;
             this.labelJmbg.Text = "*JMBG";
             // 
-            // labelAcc3
-            // 
-            this.labelAcc3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelAcc3.AutoSize = true;
-            this.labelAcc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAcc3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelAcc3.Location = new System.Drawing.Point(48, 330);
-            this.labelAcc3.Name = "labelAcc3";
-            this.labelAcc3.Size = new System.Drawing.Size(127, 16);
-            this.labelAcc3.TabIndex = 18;
-            this.labelAcc3.Text = "BROJ RAČUNA 3";
-            // 
-            // labelAcc1
-            // 
-            this.labelAcc1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelAcc1.AutoSize = true;
-            this.labelAcc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAcc1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelAcc1.Location = new System.Drawing.Point(48, 285);
-            this.labelAcc1.Name = "labelAcc1";
-            this.labelAcc1.Size = new System.Drawing.Size(133, 16);
-            this.labelAcc1.TabIndex = 17;
-            this.labelAcc1.Text = "*BROJ RAČUNA 1";
-            // 
-            // labelAcc2
-            // 
-            this.labelAcc2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelAcc2.AutoSize = true;
-            this.labelAcc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAcc2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.labelAcc2.Location = new System.Drawing.Point(397, 285);
-            this.labelAcc2.Name = "labelAcc2";
-            this.labelAcc2.Size = new System.Drawing.Size(127, 16);
-            this.labelAcc2.TabIndex = 16;
-            this.labelAcc2.Text = "BROJ RAČUNA 2";
-            // 
             // labelAdress
             // 
             this.labelAdress.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -343,9 +259,9 @@ namespace PresentationLayer
             this.labelUserId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.labelUserId.Location = new System.Drawing.Point(48, 145);
             this.labelUserId.Name = "labelUserId";
-            this.labelUserId.Size = new System.Drawing.Size(116, 16);
+            this.labelUserId.Size = new System.Drawing.Size(134, 16);
             this.labelUserId.TabIndex = 11;
-            this.labelUserId.Text = "*KORISNIČKI ID";
+            this.labelUserId.Text = "*KORISNIČKO IME";
             // 
             // labelLastName
             // 
@@ -404,9 +320,6 @@ namespace PresentationLayer
         private System.Windows.Forms.Panel panelRegister;
         private System.Windows.Forms.Label labelRegisterUser;
         private System.Windows.Forms.Label labelJmbg;
-        private System.Windows.Forms.Label labelAcc3;
-        private System.Windows.Forms.Label labelAcc1;
-        private System.Windows.Forms.Label labelAcc2;
         private System.Windows.Forms.Label labelAdress;
         private System.Windows.Forms.Label labelPhone;
         private System.Windows.Forms.Label labelEmail;
@@ -414,13 +327,10 @@ namespace PresentationLayer
         private System.Windows.Forms.Label labelUserId;
         private System.Windows.Forms.Label labelLastName;
         private System.Windows.Forms.Label labelFirstName;
-        private System.Windows.Forms.TextBox textBoxAcc2;
         private System.Windows.Forms.TextBox textBoxAdress;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.TextBox textBoxLastName;
-        private System.Windows.Forms.TextBox textBoxAcc3;
-        private System.Windows.Forms.TextBox textBoxAcc1;
         private System.Windows.Forms.TextBox textBoxPhone;
         private System.Windows.Forms.TextBox textBoxJmbg;
         private System.Windows.Forms.TextBox textBoxUserId;

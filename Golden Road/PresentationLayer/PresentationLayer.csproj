@@ -208,5 +208,14 @@
       <Name>DataLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yhsli1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yhsr1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

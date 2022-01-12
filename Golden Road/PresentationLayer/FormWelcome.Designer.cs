@@ -40,7 +40,7 @@ namespace PresentationLayer
             // pictureBoxW
             // 
             this.pictureBoxW.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxW.Image = global::PresentationLayer.Properties.Resources.welcome1;
+            this.pictureBoxW.Image = global::PresentationLayer.Properties.Resources.welcome2;
             this.pictureBoxW.Location = new System.Drawing.Point(0, 120);
             this.pictureBoxW.Name = "pictureBoxW";
             this.pictureBoxW.Size = new System.Drawing.Size(821, 208);
