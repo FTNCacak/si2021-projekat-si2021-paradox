@@ -321,9 +321,9 @@ namespace PresentationLayer
             this.labelFromAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.labelFromAcc.Location = new System.Drawing.Point(48, 96);
             this.labelFromAcc.Name = "labelFromAcc";
-            this.labelFromAcc.Size = new System.Drawing.Size(101, 16);
+            this.labelFromAcc.Size = new System.Drawing.Size(95, 16);
             this.labelFromAcc.TabIndex = 9;
-            this.labelFromAcc.Text = "*SA RAČUNA";
+            this.labelFromAcc.Text = "SA RAČUNA";
             // 
             // labelPayment
             // 
