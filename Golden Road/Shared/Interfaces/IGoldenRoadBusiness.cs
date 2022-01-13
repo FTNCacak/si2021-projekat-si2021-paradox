@@ -13,6 +13,6 @@ namespace Shared.Interfaces
         bool InsertUser(User user);
 
         List<Payment> GetAllPayments();
-        bool InsertPayment(Payment payment, User user);
+        bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca);
     }
 }

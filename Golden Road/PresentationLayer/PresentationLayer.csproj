@@ -207,6 +207,10 @@
       <Project>{b99bef48-7c0d-481c-925f-5f451fa5823c}</Project>
       <Name>DataLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{12c433e1-a14f-4e7a-b284-df7775969847}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\welcome2.png" />

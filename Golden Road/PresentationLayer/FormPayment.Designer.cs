@@ -132,6 +132,7 @@ namespace PresentationLayer
             this.buttonPayment.TabIndex = 31;
             this.buttonPayment.Text = "UPLATA";
             this.buttonPayment.UseVisualStyleBackColor = false;
+            this.buttonPayment.Click += new System.EventHandler(this.buttonPayment_Click);
             // 
             // textBoxPurpose
             // 

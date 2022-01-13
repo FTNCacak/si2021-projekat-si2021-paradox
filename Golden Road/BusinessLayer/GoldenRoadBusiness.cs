@@ -11,21 +11,21 @@ namespace BusinessLayer
 {
     public class GoldenRoadBusiness:IGoldenRoadBusiness
     {
-        readonly GoldenRoadRepository goldenRoadtRepository = new GoldenRoadRepository();
+        readonly GoldenRoadRepository goldenRoadRepository = new GoldenRoadRepository();
 
         public List<User> GetAllUsers()
         {
-            return goldenRoadtRepository.GetAllUsers();
+            return goldenRoadRepository.GetAllUsers();
         }
 
         public bool InsertUser(User user)
         {
-            return goldenRoadtRepository.InsertUser(user) != 0;
+            return goldenRoadRepository.InsertUser(user) != 0;
         }
 
-        public bool InsertPayment(Payment payment,User user)
+        public bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca)
         {
-            return goldenRoadtRepository.InsertPayment(payment,user) != 0;
+            return goldenRoadRepository.InsertPayment(payment, broj_Racuna_Uplatioca) != 0;
         }
 
         public List<Payment> GetAllPayments()

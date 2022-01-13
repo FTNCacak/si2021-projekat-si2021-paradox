@@ -34,9 +34,9 @@ namespace DataLayer
                     user.Prezime = dataReader.GetString(2);
                     user.Korisnicki_Id = dataReader.GetString(3);
                     user.Lozinka = dataReader.GetString(4);
-                    user.JMBG = dataReader.GetInt64(5);
+                    user.JMBG = dataReader.GetString(5);
                     user.Mail_Adresa = dataReader.GetString(6);
-                    user.Broj_Telefona = dataReader.GetInt64(7);
+                    user.Broj_Telefona = dataReader.GetString(7);
                     user.Adresa = dataReader.GetString(8);
                     user.Broj_Racuna = dataReader.GetInt64(9);
                 
@@ -98,7 +98,7 @@ namespace DataLayer
 
 
         }
-        public int InsertPayment(Payment payment, User user)
+        public int InsertPayment(Payment payment, long broj_Racuna_Uplatioca)
         {
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -106,7 +106,7 @@ namespace DataLayer
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
                 command.CommandText = string.Format("INSERT INTO Payments VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}')",
-                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum, payment.Broj_Racuna_Uplatioca=user.Broj_Racuna);
+                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum, payment.Broj_Racuna_Uplatioca= broj_Racuna_Uplatioca);
 
                 return command.ExecuteNonQuery();
             }

@@ -115,6 +115,7 @@ namespace PresentationLayer
             this.textBoxUserPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.textBoxUserPassword.Location = new System.Drawing.Point(382, 139);
             this.textBoxUserPassword.Name = "textBoxUserPassword";
+            this.textBoxUserPassword.PasswordChar = '*';
             this.textBoxUserPassword.Size = new System.Drawing.Size(200, 22);
             this.textBoxUserPassword.TabIndex = 1;
             // 
@@ -141,6 +142,7 @@ namespace PresentationLayer
             this.Name = "FormUser";
             this.Padding = new System.Windows.Forms.Padding(100);
             this.Text = "FormUser";
+            this.Load += new System.EventHandler(this.FormUser_Load);
             this.panelLoginUser.ResumeLayout(false);
             this.panelLoginUser.PerformLayout();
             this.ResumeLayout(false);

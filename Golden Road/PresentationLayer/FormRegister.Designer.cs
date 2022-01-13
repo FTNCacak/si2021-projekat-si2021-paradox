@@ -31,7 +31,7 @@ namespace PresentationLayer
         {
             this.panelRegister = new System.Windows.Forms.Panel();
             this.buttonRegister = new System.Windows.Forms.Button();
-            this.textBoxAdress = new System.Windows.Forms.TextBox();
+            this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
@@ -55,7 +55,7 @@ namespace PresentationLayer
             // 
             this.panelRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panelRegister.Controls.Add(this.buttonRegister);
-            this.panelRegister.Controls.Add(this.textBoxAdress);
+            this.panelRegister.Controls.Add(this.textBoxAddress);
             this.panelRegister.Controls.Add(this.textBoxEmail);
             this.panelRegister.Controls.Add(this.textBoxPassword);
             this.panelRegister.Controls.Add(this.textBoxLastName);
@@ -95,17 +95,17 @@ namespace PresentationLayer
             this.buttonRegister.UseVisualStyleBackColor = false;
             this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
-            // textBoxAdress
+            // textBoxAddress
             // 
-            this.textBoxAdress.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBoxAdress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxAdress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAdress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxAdress.Location = new System.Drawing.Point(550, 234);
-            this.textBoxAdress.Name = "textBoxAdress";
-            this.textBoxAdress.Size = new System.Drawing.Size(150, 22);
-            this.textBoxAdress.TabIndex = 29;
+            this.textBoxAddress.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBoxAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxAddress.Location = new System.Drawing.Point(550, 234);
+            this.textBoxAddress.Name = "textBoxAddress";
+            this.textBoxAddress.Size = new System.Drawing.Size(150, 22);
+            this.textBoxAddress.TabIndex = 29;
             // 
             // textBoxEmail
             // 
@@ -128,6 +128,7 @@ namespace PresentationLayer
             this.textBoxPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.textBoxPassword.Location = new System.Drawing.Point(550, 143);
             this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(150, 22);
             this.textBoxPassword.TabIndex = 27;
             // 
@@ -327,7 +328,7 @@ namespace PresentationLayer
         private System.Windows.Forms.Label labelUserId;
         private System.Windows.Forms.Label labelLastName;
         private System.Windows.Forms.Label labelFirstName;
-        private System.Windows.Forms.TextBox textBoxAdress;
+        private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.TextBox textBoxLastName;
