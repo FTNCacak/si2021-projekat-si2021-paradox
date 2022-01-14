@@ -4,7 +4,7 @@ CREATE TABLE [dbo].[Users] (
     [Prezime]          NVARCHAR (30)   NOT NULL,
     [Korisnicki_Id]    VARCHAR (20)    NOT NULL,
     [Lozinka]          VARCHAR (20)    NOT NULL,
-    [JMBG]             BIGINT          NOT NULL,
+    [JMBG]             VARCHAR (13)         NOT NULL,
     [Mail_Adresa]      VARCHAR (30)    NOT NULL,
     [Broj_Telefona]    VARCHAR (10)          NULL,
     [Adresa]           NVARCHAR (30)   NULL,

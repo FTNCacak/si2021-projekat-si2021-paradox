@@ -74,3 +74,5 @@ C:\Users\skezla\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\Presentati
 C:\Users\skezla\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.pdb
 C:\Users\milse\Desktop\projekat\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.AssemblyReference.cache
 C:\Users\milse\Desktop\projekat\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.CoreCompileInputs.cache

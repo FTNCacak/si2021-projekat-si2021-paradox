@@ -20,3 +20,14 @@ C:\Users\milse\Desktop\projekat\Golden Road\BusinessLayer\obj\Debug\BusinessLaye
 C:\Users\milse\Desktop\projekat\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\milse\Desktop\projekat\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\milse\Desktop\projekat\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\bin\Debug\Shared.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\aleks\Desktop\GR\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb

@@ -11,8 +11,13 @@ namespace Shared.Interfaces
     {
         List<User> GetAllUsers();
         int InsertUser(User user);
+        int DeleteUser(int id);
+        int UpdateUser(User user);
 
         List<Payment> GetAllPayments();
         int InsertPayment(Payment payment, long broj_Racuna_Uplatioca);
+        int DeletePayment(int id);
+        int UpdatePayment(Payment payment);
+
     }
 }
