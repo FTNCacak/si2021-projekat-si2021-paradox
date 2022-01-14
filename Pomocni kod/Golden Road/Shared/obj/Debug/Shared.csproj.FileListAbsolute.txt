@@ -1,0 +1,11 @@
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\bin\Debug\Shared.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\obj\Debug\Shared.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\Shared\obj\Debug\Shared.pdb
+C:\Users\milse\Desktop\projekat\Golden Road\Shared\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\projekat\Golden Road\Shared\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\projekat\Golden Road\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\projekat\Golden Road\Shared\obj\Debug\Shared.dll
+C:\Users\milse\Desktop\projekat\Golden Road\Shared\obj\Debug\Shared.pdb
