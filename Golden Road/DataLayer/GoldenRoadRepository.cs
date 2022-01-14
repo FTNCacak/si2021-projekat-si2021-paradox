@@ -10,7 +10,7 @@ namespace DataLayer
 {
     public class GoldenRoadRepository : IGoldenRoadRepository
     {
-        private string connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=GoldenRoadDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private string connString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=GoldenRoad;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         public List<User> GetAllUsers()
         {
@@ -47,6 +47,12 @@ namespace DataLayer
                 }
             }
             return userList;
+        }
+
+     
+        public int InsertPayment(Payment payment)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Payment> GetAllPayments()

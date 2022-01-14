@@ -76,3 +76,5 @@ C:\Users\milse\Desktop\projekat\Golden Road\PresentationLayerWeb\obj\Debug\Prese
 C:\Users\milse\Desktop\projekat\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.CoreCompileInputs.cache
 C:\Users\aleks\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.AssemblyReference.cache
 C:\Users\aleks\Desktop\GR\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.CoreCompileInputs.cache
+C:\Users\Tempest\Desktop\14\si2021-projekat-si2021-paradox-Golden_Road_App\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.AssemblyReference.cache
+C:\Users\Tempest\Desktop\14\si2021-projekat-si2021-paradox-Golden_Road_App\Golden Road\PresentationLayerWeb\obj\Debug\PresentationLayerWeb.csproj.CoreCompileInputs.cache
