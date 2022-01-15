@@ -15,12 +15,12 @@ namespace Shared.Models
         public long Poziv_Na_Broj { get; set; }
         public decimal Iznos { get; set; }
         public string Svrha_Uplate { get; set; }
-        public DateTime Datum { get; set; }
+        public string Datum { get; set; }
         public long Broj_Racuna_Uplatioca { get; set; }
 
         public Payment () { }
 
-        public Payment(string naziv, long broj_Racuna_Primaoca, int model, long poziv_Na_Broj, decimal iznos, string svrha_Uplate, DateTime datum)
+        public Payment(string naziv, long broj_Racuna_Primaoca, int model, long poziv_Na_Broj, decimal iznos, string svrha_Uplate, string datum)
         {
             Naziv = naziv;
             Broj_Racuna_Primaoca = broj_Racuna_Primaoca;

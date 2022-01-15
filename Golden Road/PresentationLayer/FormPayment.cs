@@ -85,7 +85,7 @@ namespace PresentationLayer
                 return;
             }
 
-            Payment payment = new Payment(textBoxName.Text, long.Parse(textBoxToAcc.Text), int.Parse(textBoxModel.Text), long.Parse(textBoxReference.Text), decimal.Parse(textBoxAmount.Text), textBoxPurpose.Text, dateTimePickerDate.Value);
+            Payment payment = new Payment(textBoxName.Text, long.Parse(textBoxToAcc.Text), int.Parse(textBoxModel.Text), long.Parse(textBoxReference.Text), decimal.Parse(textBoxAmount.Text), textBoxPurpose.Text, Convert.ToString(dateTimePickerDate.Value));
 
             goldenRoadBusiness.InsertPayment(payment, long.Parse(textBoxFromAcc.Text), textBoxAmount, textBoxState);
 
@@ -93,6 +93,12 @@ namespace PresentationLayer
 
         }
         User user = new User();
+
+        private void dateTimePickerDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void FormPayment_Load(object sender, EventArgs e)
         {
             goldenRoadBusiness.GetUser(userId, textBoxFromAcc, textBoxState);

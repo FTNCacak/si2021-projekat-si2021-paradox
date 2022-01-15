@@ -30,6 +30,7 @@ namespace PresentationLayer
         private void InitializeComponent()
         {
             this.panelPayment = new System.Windows.Forms.Panel();
+            this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxFromAcc = new System.Windows.Forms.TextBox();
             this.labelState = new System.Windows.Forms.Label();
             this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
@@ -51,7 +52,6 @@ namespace PresentationLayer
             this.labelAmount = new System.Windows.Forms.Label();
             this.labelFromAcc = new System.Windows.Forms.Label();
             this.labelPayment = new System.Windows.Forms.Label();
-            this.textBoxState = new System.Windows.Forms.TextBox();
             this.panelPayment.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,6 +86,19 @@ namespace PresentationLayer
             this.panelPayment.Size = new System.Drawing.Size(751, 378);
             this.panelPayment.TabIndex = 1;
             // 
+            // textBoxState
+            // 
+            this.textBoxState.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBoxState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxState.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxState.Enabled = false;
+            this.textBoxState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxState.Location = new System.Drawing.Point(571, 89);
+            this.textBoxState.Name = "textBoxState";
+            this.textBoxState.Size = new System.Drawing.Size(129, 22);
+            this.textBoxState.TabIndex = 36;
+            // 
             // textBoxFromAcc
             // 
             this.textBoxFromAcc.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -118,6 +131,7 @@ namespace PresentationLayer
             this.dateTimePickerDate.Name = "dateTimePickerDate";
             this.dateTimePickerDate.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerDate.TabIndex = 32;
+            this.dateTimePickerDate.ValueChanged += new System.EventHandler(this.dateTimePickerDate_ValueChanged);
             // 
             // buttonPayment
             // 
@@ -338,19 +352,6 @@ namespace PresentationLayer
             this.labelPayment.Size = new System.Drawing.Size(129, 25);
             this.labelPayment.TabIndex = 8;
             this.labelPayment.Text = "PLAĆANJE";
-            // 
-            // textBoxState
-            // 
-            this.textBoxState.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBoxState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textBoxState.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxState.Enabled = false;
-            this.textBoxState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
-            this.textBoxState.Location = new System.Drawing.Point(571, 89);
-            this.textBoxState.Name = "textBoxState";
-            this.textBoxState.Size = new System.Drawing.Size(129, 22);
-            this.textBoxState.TabIndex = 36;
             // 
             // FormPayment
             // 

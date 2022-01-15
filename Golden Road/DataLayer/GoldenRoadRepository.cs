@@ -74,7 +74,7 @@ namespace DataLayer
                     payment.Poziv_Na_Broj = dataReader.GetInt64(4);
                     payment.Iznos = dataReader.GetDecimal(5);
                     payment.Svrha_Uplate = dataReader.GetString(6);
-                    payment.Datum = dataReader.GetDateTime(7);
+                    payment.Datum = dataReader.GetString(7);
                     payment.Broj_Racuna_Uplatioca = dataReader.GetInt64(8);
 
                    paymentList.Add(payment);

@@ -10,7 +10,7 @@ namespace GoldenRoadDataTests
     public class GoldenRoadRepositoryUserTests
     {
         public User user;
-        public Payment payment;
+       
         public GoldenRoadRepository goldenRoadRepository;
 
         [TestInitialize]

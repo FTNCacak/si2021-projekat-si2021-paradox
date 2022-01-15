@@ -49,12 +49,14 @@ namespace BusinessLayer
                 valueAmount = valueAmount + 50;
                 valueState = valueState - valueAmount;
                 tbAmount.Text = valueAmount.ToString();
+                tbState.Text = valueState.ToString();
             }
             else
             {
                 valueAmount = valueAmount + valueAmount / 100;
                 valueState = valueState - valueAmount;
                 tbAmount.Text = valueAmount.ToString();
+                tbState.Text = valueState.ToString();
             }
             if (valueAmount > valueState)
                 return false;
