@@ -11,7 +11,8 @@ namespace Shared.Interfaces
     {
         List<User> GetAllUsers();
         bool InsertUser(User user);
-
+        bool UpdateUser(User user);
+        bool DeleteUser(int id);
         List<Payment> GetAllPayments();
         bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca);
     }

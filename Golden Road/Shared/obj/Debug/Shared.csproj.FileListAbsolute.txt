@@ -16,3 +16,9 @@ C:\Users\aleks\Desktop\GR\Golden Road\Shared\obj\Debug\Shared.csproj.AssemblyRef
 C:\Users\aleks\Desktop\GR\Golden Road\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
 C:\Users\aleks\Desktop\GR\Golden Road\Shared\obj\Debug\Shared.dll
 C:\Users\aleks\Desktop\GR\Golden Road\Shared\obj\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\obj\Debug\Shared.dll
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\obj\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache

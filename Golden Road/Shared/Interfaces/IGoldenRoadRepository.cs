@@ -16,8 +16,8 @@ namespace Shared.Interfaces
 
         List<Payment> GetAllPayments();
         int InsertPayment(Payment payment, long broj_Racuna_Uplatioca);
-        int DeletePayment(int id);
-        int UpdatePayment(Payment payment);
+        //int DeletePayment(int id);
+        //int UpdatePayment(Payment payment);
 
     }
 }

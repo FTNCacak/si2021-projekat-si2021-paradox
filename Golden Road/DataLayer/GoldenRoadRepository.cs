@@ -10,7 +10,7 @@ namespace DataLayer
 {
     public class GoldenRoadRepository : IGoldenRoadRepository
     {
-        private string connString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=GoldenRoad;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private string connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=GoldenRoadDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         public List<User> GetAllUsers()
         {
@@ -39,7 +39,6 @@ namespace DataLayer
                     user.Broj_Telefona = dataReader.GetString(7);
                     user.Adresa = dataReader.GetString(8);
                     user.Broj_Racuna = dataReader.GetInt64(9);
-                
                     user.Stanje_Na_Racunu = dataReader.GetDecimal(10);
 
                     userList.Add(user);
@@ -47,12 +46,6 @@ namespace DataLayer
                 }
             }
             return userList;
-        }
-
-     
-        public int InsertPayment(Payment payment)
-        {
-            throw new NotImplementedException();
         }
 
         public List<Payment> GetAllPayments()
@@ -112,7 +105,7 @@ namespace DataLayer
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
                 command.CommandText = string.Format("INSERT INTO Payments VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}')",
-                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum, payment.Broj_Racuna_Uplatioca= broj_Racuna_Uplatioca);
+                  payment.Naziv, payment.Broj_Racuna_Primaoca, payment.Model, payment.Poziv_Na_Broj, payment.Iznos, payment.Svrha_Uplate, payment.Datum, payment.Broj_Racuna_Uplatioca = broj_Racuna_Uplatioca);
 
                 return command.ExecuteNonQuery();
             }
@@ -140,7 +133,6 @@ namespace DataLayer
                 command.Parameters.AddWithValue("@Broj_Telefona", user.Broj_Telefona);
                 command.Parameters.AddWithValue("@Adresa", user.Adresa);
                 command.Parameters.AddWithValue("@Broj_Racuna", user.Broj_Racuna);
-              
                 command.Parameters.AddWithValue("@Stanje_Na_Racunu", user.Stanje_Na_Racunu);
 
                 sqlConnection.Open();
@@ -148,29 +140,7 @@ namespace DataLayer
                 return command.ExecuteNonQuery();
             }
         }
-        public int UpdatePayment(Payment payment)
-        {
-            using (SqlConnection sqlConnection = new SqlConnection(connString))
-            {
-                
-
-                string sqlCommand = "UPDATE Payments SET Naziv = @Naziv, Broj_Racuna_Primaoca = @Broj_Racuna_Primaoca, Model = @Model," +
-                    " Poziv_Na_Broj = @Poziv_Na_Broj, Iznos = @Iznos, Svrha_Uplate = @Svrha_Uplate, Datum = @Datum WHERE Id = @Id";
-                SqlCommand command = new SqlCommand(sqlCommand, sqlConnection);
-                command.Parameters.AddWithValue("@Id", payment.Id);
-                command.Parameters.AddWithValue("@Naziv", payment.Naziv);
-                command.Parameters.AddWithValue("@Broj_Racuna_Primaoca", payment.Broj_Racuna_Primaoca);
-                command.Parameters.AddWithValue("@Model", payment.Model);
-                command.Parameters.AddWithValue("@Poziv_Na_Broj", payment.Poziv_Na_Broj);
-                command.Parameters.AddWithValue("@Iznos", payment.Iznos);
-                command.Parameters.AddWithValue("@Svrha_Uplate", payment.Svrha_Uplate);
-                command.Parameters.AddWithValue("@Datum", payment.Datum);
-
-                sqlConnection.Open();
-
-                return command.ExecuteNonQuery();
-            }
-        }
+       
         public int DeleteUser(int id)
         {
             using (SqlConnection sqlConnection = new SqlConnection(connString))
@@ -184,19 +154,6 @@ namespace DataLayer
                 return command.ExecuteNonQuery();
             }
         }
-        public int DeletePayment(int id)
-        {
-            using (SqlConnection sqlConnection = new SqlConnection(connString))
-            {
-                sqlConnection.Open();
-
-                SqlCommand command = new SqlCommand();
-                command.Connection = sqlConnection;
-                command.CommandText = "DELETE FROM Payments WHERE Id = " + id;
-
-                return command.ExecuteNonQuery();
-            }
-        }
-
+        
     }
 }
