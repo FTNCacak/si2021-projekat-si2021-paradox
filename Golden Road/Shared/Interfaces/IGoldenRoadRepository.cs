@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shared.Models;
+using System.Windows.Forms;
 
 namespace Shared.Interfaces
 {
@@ -15,9 +16,7 @@ namespace Shared.Interfaces
         int UpdateUser(User user);
 
         List<Payment> GetAllPayments();
-        int InsertPayment(Payment payment, long broj_Racuna_Uplatioca);
-        //int DeletePayment(int id);
-        //int UpdatePayment(Payment payment);
-
+        int InsertPayment(Payment payment, long broj_Racuna_Uplatioca, TextBox tbAmount, TextBox tbState);
+        List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState);
     }
 }

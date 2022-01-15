@@ -17,17 +17,24 @@ namespace PresentationLayer
     {
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
 
+        public static FormUser fUInstance;
+        public TextBox tbUserId;
+        public static class Global
+        {
+            public static TextBox UserID;
+        }
 
         public FormUser()
         {
             InitializeComponent();
         }
 
+
         public Form activeForm = null;
         public void openChildForm(Form childForm)
         {
             if (activeForm != null)
-                activeForm.Close();
+            activeForm.Close();
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;

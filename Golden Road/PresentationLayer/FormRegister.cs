@@ -111,6 +111,7 @@ namespace PresentationLayer
             FormGoldenRoad.fGRinstance.btnLogout.Visible = true;
             FormGoldenRoad.fGRinstance.btnPayment.Visible = true;
             openChildForm(new FormYHSR());
+
         }
 
         private void FormRegister_Load(object sender, EventArgs e)

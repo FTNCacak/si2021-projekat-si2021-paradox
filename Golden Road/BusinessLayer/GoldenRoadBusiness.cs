@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shared.Interfaces;
+using System.Windows.Forms;
 
 namespace BusinessLayer
 {
-    public class GoldenRoadBusiness:IGoldenRoadBusiness
+    public class GoldenRoadBusiness : IGoldenRoadBusiness
     {
         readonly GoldenRoadRepository goldenRoadRepository = new GoldenRoadRepository();
 
@@ -17,9 +18,15 @@ namespace BusinessLayer
         {
             return this.goldenRoadRepository.GetAllUsers();
         }
+
         public List<Payment> GetAllPayments()
         {
             return this.goldenRoadRepository.GetAllPayments();
+        }
+
+        public List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState)
+        {
+            return this.goldenRoadRepository.GetUser(tbUserId, tbFromAcc, tbState);
         }
 
         public bool InsertUser(User user)
@@ -31,10 +38,35 @@ namespace BusinessLayer
                 return false;
         }
 
-        public bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca)
+        public bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca, TextBox tbAmount, TextBox tbState)
         {
-            //kod
-            return true;
+            string textAmount = tbAmount.Text;
+            string textState = tbState.Text;
+            decimal valueAmount = Convert.ToDecimal(textAmount);
+            decimal valueState = Convert.ToDecimal(textState);
+            if (valueAmount <= 5000)
+            {
+                valueAmount = valueAmount + 50;
+                valueState = valueState - valueAmount;
+                tbAmount.Text = valueAmount.ToString();
+            }
+            else
+            {
+                valueAmount = valueAmount + valueAmount / 100;
+                valueState = valueState - valueAmount;
+                tbAmount.Text = valueAmount.ToString();
+            }
+            if (valueAmount > valueState)
+                return false;
+            else
+            {
+                int rowsAffected = this.goldenRoadRepository.InsertPayment(payment, broj_Racuna_Uplatioca, tbAmount, tbState);
+                if (rowsAffected > 0)
+                    return true;
+                else
+                    return false;
+            }
+                
         }
 
         public bool UpdateUser(User user)
@@ -54,5 +86,6 @@ namespace BusinessLayer
             else
                 return false;
         }
+
     }
 }

@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Shared.Interfaces;
 using Shared.Models;
+using System.Windows.Forms;
+
 namespace DataLayer
 {
     public class GoldenRoadRepository : IGoldenRoadRepository
     {
         private string connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=GoldenRoadDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
+        
         public List<User> GetAllUsers()
         {
             List<User> userList = new List<User>();
@@ -90,14 +92,13 @@ namespace DataLayer
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
                 command.CommandText = string.Format("INSERT INTO Users VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')",
-                    user.Ime, user.Prezime, user.Korisnicki_Id, user.Lozinka, user.JMBG, user.Mail_Adresa, user.Broj_Telefona, user.Adresa, user.Broj_Racuna, user.Stanje_Na_Racunu);
+                  user.Ime, user.Prezime, user.Korisnicki_Id, user.Lozinka, user.JMBG, user.Mail_Adresa, user.Broj_Telefona, user.Adresa, user.Broj_Racuna, user.Stanje_Na_Racunu);
 
                 return command.ExecuteNonQuery();
             }
 
-
         }
-        public int InsertPayment(Payment payment, long broj_Racuna_Uplatioca)
+        public int InsertPayment(Payment payment, long broj_Racuna_Uplatioca, TextBox tbAmount, TextBox tbState)
         {
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -117,7 +118,6 @@ namespace DataLayer
         {
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
-                
 
                 string sqlCommand = "UPDATE Users SET Ime = @Ime, Prezime = @Prezime, Korisnicki_Id = @Korisnicki_Id, Lozinka = @Lozinka," +
                     " JMBG = @JMBG , Mail_Adresa = @Mail_Adresa, Broj_Telefona = @Broj_Telefona, Adresa = @Adresa, Broj_Racuna= @Broj_Racuna," +
@@ -154,6 +154,33 @@ namespace DataLayer
                 return command.ExecuteNonQuery();
             }
         }
-        
+
+        public List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState)
+        {
+            List<User> userList = new List<User>();
+
+            using (SqlConnection sqlConnection = new SqlConnection(connString))
+            {
+                sqlConnection.Open();
+
+                SqlCommand command = new SqlCommand();
+                command.Connection = sqlConnection;
+                command.CommandText = "SELECT *FROM Users WHERE Korisnicki_Id = 'asdasdasd'";
+
+
+                SqlDataReader dataReader = command.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    User user = new User();
+                    user.Korisnicki_Id = dataReader.GetString(3);
+                    user.Broj_Racuna = dataReader.GetInt64(9);
+                    user.Stanje_Na_Racunu = dataReader.GetDecimal(10);
+                    tbFromAcc.Text = Convert.ToString(user.Broj_Racuna);
+                    tbState.Text = user.Stanje_Na_Racunu.ToString();
+                    userList.Add(user);
+                }
+            }
+            return userList;
+        }
     }
 }

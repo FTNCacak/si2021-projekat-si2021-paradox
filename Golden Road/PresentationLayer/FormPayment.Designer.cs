@@ -51,12 +51,14 @@ namespace PresentationLayer
             this.labelAmount = new System.Windows.Forms.Label();
             this.labelFromAcc = new System.Windows.Forms.Label();
             this.labelPayment = new System.Windows.Forms.Label();
+            this.textBoxState = new System.Windows.Forms.TextBox();
             this.panelPayment.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelPayment
             // 
             this.panelPayment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.panelPayment.Controls.Add(this.textBoxState);
             this.panelPayment.Controls.Add(this.textBoxFromAcc);
             this.panelPayment.Controls.Add(this.labelState);
             this.panelPayment.Controls.Add(this.dateTimePickerDate);
@@ -337,6 +339,19 @@ namespace PresentationLayer
             this.labelPayment.TabIndex = 8;
             this.labelPayment.Text = "PLAĆANJE";
             // 
+            // textBoxState
+            // 
+            this.textBoxState.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBoxState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.textBoxState.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxState.Enabled = false;
+            this.textBoxState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
+            this.textBoxState.Location = new System.Drawing.Point(571, 89);
+            this.textBoxState.Name = "textBoxState";
+            this.textBoxState.Size = new System.Drawing.Size(129, 22);
+            this.textBoxState.TabIndex = 36;
+            // 
             // FormPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -347,6 +362,7 @@ namespace PresentationLayer
             this.Name = "FormPayment";
             this.Padding = new System.Windows.Forms.Padding(35);
             this.Text = "FormPayment";
+            this.Load += new System.EventHandler(this.FormPayment_Load);
             this.panelPayment.ResumeLayout(false);
             this.panelPayment.PerformLayout();
             this.ResumeLayout(false);
@@ -377,5 +393,6 @@ namespace PresentationLayer
         private System.Windows.Forms.DateTimePicker dateTimePickerDate;
         private System.Windows.Forms.Label labelState;
         private System.Windows.Forms.TextBox textBoxFromAcc;
+        private System.Windows.Forms.TextBox textBoxState;
     }
 }

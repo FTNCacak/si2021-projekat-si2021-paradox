@@ -4,15 +4,25 @@ using Shared.Models;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
+using System.Collections.Generic;
+using static PresentationLayer.FormUser;
 
 namespace PresentationLayer
 {
     public partial class FormPayment : Form
     {
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
+        private TextBox userId = Global.UserID;
+        public List<User> users = new List<User>();
+        public static FormPayment fPinstance;
+        public TextBox tbFromAcc, tbState;
         public FormPayment()
         {
             InitializeComponent();
+            tbFromAcc = textBoxFromAcc;
+            tbState = textBoxState;
         }
 
         private void buttonPayment_Click(object sender, EventArgs e)
@@ -77,11 +87,15 @@ namespace PresentationLayer
 
             Payment payment = new Payment(textBoxName.Text, long.Parse(textBoxToAcc.Text), int.Parse(textBoxModel.Text), long.Parse(textBoxReference.Text), decimal.Parse(textBoxAmount.Text), textBoxPurpose.Text, dateTimePickerDate.Value);
 
-            goldenRoadBusiness.InsertPayment(payment, long.Parse(textBoxFromAcc.Text));
+            goldenRoadBusiness.InsertPayment(payment, long.Parse(textBoxFromAcc.Text), textBoxAmount, textBoxState);
 
             MessageBox.Show("Uplata je primljena i čeka na izvršenje!", "Information Correct", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
-
+        User user = new User();
+        private void FormPayment_Load(object sender, EventArgs e)
+        {
+            goldenRoadBusiness.GetUser(userId, textBoxFromAcc, textBoxState);
+        }
     }
 }
