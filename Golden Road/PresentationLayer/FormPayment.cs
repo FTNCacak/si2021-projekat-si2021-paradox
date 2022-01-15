@@ -86,10 +86,20 @@ namespace PresentationLayer
             }
 
             Payment payment = new Payment(textBoxName.Text, long.Parse(textBoxToAcc.Text), int.Parse(textBoxModel.Text), long.Parse(textBoxReference.Text), decimal.Parse(textBoxAmount.Text), textBoxPurpose.Text, Convert.ToString(dateTimePickerDate.Value));
-
-            goldenRoadBusiness.InsertPayment(payment, long.Parse(textBoxFromAcc.Text), textBoxAmount, textBoxState);
-
-            MessageBox.Show("Uplata je primljena i čeka na izvršenje!", "Information Correct", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string tbState, tbAmount;
+            decimal dState, dAmount;
+            tbState = textBoxState.Text;
+            tbAmount = textBoxAmount.Text;
+            dState = Convert.ToDecimal(tbState);
+            dAmount = Convert.ToDecimal(tbAmount);
+            
+            if(dState > dAmount)
+            {
+                goldenRoadBusiness.InsertPayment(payment, long.Parse(textBoxFromAcc.Text), textBoxAmount, textBoxState);
+                MessageBox.Show("Uplata je primljena i čeka na izvršenje!", "Information Correct", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                MessageBox.Show("Nemate dovoljno novca na računu", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
         User user = new User();

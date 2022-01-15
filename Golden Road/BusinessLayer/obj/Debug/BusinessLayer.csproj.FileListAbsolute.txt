@@ -72,3 +72,13 @@ C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.
 C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb

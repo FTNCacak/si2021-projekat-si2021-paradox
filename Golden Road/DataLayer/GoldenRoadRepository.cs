@@ -165,7 +165,7 @@ namespace DataLayer
 
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
-                command.CommandText = "SELECT *FROM Users WHERE Korisnicki_Id = 'asdasdasd'";
+                command.CommandText = "SELECT *FROM Users WHERE Korisnicki_Id = 'asdasdasdasd'";
 
 
                 SqlDataReader dataReader = command.ExecuteReader();

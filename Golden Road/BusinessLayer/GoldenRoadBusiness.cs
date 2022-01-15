@@ -58,17 +58,11 @@ namespace BusinessLayer
                 tbAmount.Text = valueAmount.ToString();
                 tbState.Text = valueState.ToString();
             }
-            if (valueAmount > valueState)
-                return false;
+            int rowsAffected = this.goldenRoadRepository.InsertPayment(payment, broj_Racuna_Uplatioca, tbAmount, tbState);
+            if (rowsAffected > 0)
+               return true;
             else
-            {
-                int rowsAffected = this.goldenRoadRepository.InsertPayment(payment, broj_Racuna_Uplatioca, tbAmount, tbState);
-                if (rowsAffected > 0)
-                    return true;
-                else
-                    return false;
-            }
-                
+               return false;             
         }
 
         public bool UpdateUser(User user)
