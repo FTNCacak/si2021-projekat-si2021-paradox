@@ -16,12 +16,6 @@ namespace PresentationLayer
 { 
     public partial class FormUser : Form
     {
-
-        //readonly IGoldenRoadBusiness goldenRoadBusiness;
-        //public FormUser(IGoldenRoadBusiness _goldenRoadBusiness)
-        //{
-        //    goldenRoadBusiness = _goldenRoadBusiness;
-        //}
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
 
         public static FormUser fUInstance;
@@ -59,8 +53,6 @@ namespace PresentationLayer
 
             sUserId = textBoxUserId.Text;
 
-            //ne regex nego uslovi
-
             foreach (User user in goldenRoadBusiness.GetAllUsers())
             {
                 if (user.Korisnicki_Id == textBoxUserId.Text && user.Lozinka == textBoxUserPassword.Text)
@@ -77,11 +69,6 @@ namespace PresentationLayer
             MessageBox.Show("Uneti podaci ne odgovaraju ni jednom korisniku!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
             
-        }
-
-        private void FormUser_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

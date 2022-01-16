@@ -309,7 +309,6 @@ namespace PresentationLayer
             this.Name = "FormRegister";
             this.Padding = new System.Windows.Forms.Padding(35);
             this.Text = "FormRegister";
-            this.Load += new System.EventHandler(this.FormRegister_Load);
             this.panelRegister.ResumeLayout(false);
             this.panelRegister.PerformLayout();
             this.ResumeLayout(false);

@@ -16,12 +16,6 @@ namespace PresentationLayer
 {
     public partial class FormRegister : Form
     {
-        //readonly IGoldenRoadBusiness goldenRoadBusiness;
-        //public FormRegister(IGoldenRoadBusiness _goldenRoadBusiness)
-        //{
-        //    goldenRoadBusiness = _goldenRoadBusiness;
-        //}
-
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
         public FormRegister()
         {
@@ -71,32 +65,40 @@ namespace PresentationLayer
                 return;
             }
 
-            if (!Regex.Match(textBoxUserId.Text, "^[a-zA-Z][a-zA-Z0-9]{8,20}").Success)
+            if (!Regex.Match(textBoxUserId.Text, "^[a-zA-Z][a-zA-Z0-9]{7,20}").Success)
             {
                 MessageBox.Show("Korisničko ime nije pravilno uneto! Dužina korisničkog imena mora biti između 8 i 20 karaktera!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBoxUserId.Focus();
                 return;
             }
 
-            if (!Regex.Match(textBoxPassword.Text, "^[a-zA-Z][a-zA-Z0-9]{10,20}").Success)
+            if (!Regex.Match(textBoxPassword.Text, "^[a-zA-Z][a-zA-Z0-9]{9,20}").Success)
             {
                 MessageBox.Show("Lozinka nije pravilno uneta! Dužina lozinke mora biti između 10 i 20 karaktera!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBoxPassword.Focus();
                 return;
             }
 
-            if (!Regex.Match(textBoxJmbg.Text, "^[0-9]{13}").Success)
+            if (!Regex.Match(textBoxJmbg.Text, "^^(0[1-9]|[12][0-9]|3[01])(0[1-9]|1[012])[0-9]{9}$").Success)
             {
                 MessageBox.Show("JMBG mora sadržati 13 cifara!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBoxJmbg.Focus();
                 return;
             }
 
+            if (!Regex.Match(textBoxEmail.Text, "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$").Success)
+            {
+                MessageBox.Show("Email nije pravilno unet!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBoxEmail.Focus();
+                return;
+            }
+
+
             /*regex za email neće postojati, proverava se kroz unit, 
             suviše kompleksan izraz za testiranje bi
             trebao da bude kako bi se pokrila svaka greška*/
 
-           if (!Regex.Match(textBoxPhone.Text, @"^([0][6]\d{1}[0-9]\d{2,3}\d{3,4}$)?").Success)
+            if (!Regex.Match(textBoxPhone.Text, @"^([0][6]\d{1}[0-9]\d{2,3}\d{3,4}$)?").Success)
             {
                 MessageBox.Show("Broj telefona nije pravilno unet!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBoxPhone.Focus();
@@ -116,14 +118,9 @@ namespace PresentationLayer
             FormGoldenRoad.fGRinstance.btnLogin.Visible = false;
             FormGoldenRoad.fGRinstance.btnRegister.Visible = false;
             FormGoldenRoad.fGRinstance.btnLogout.Visible = true;
-            FormGoldenRoad.fGRinstance.btnPayment.Visible = true;
+            FormGoldenRoad.fGRinstance.btnPayment.Visible = false;
             openChildForm(new FormYHSR());
 
-        }
-
-        private void FormRegister_Load(object sender, EventArgs e)
-        {
-        
         }
     }
 }

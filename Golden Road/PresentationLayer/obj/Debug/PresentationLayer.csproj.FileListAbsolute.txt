@@ -298,3 +298,40 @@ C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Shared.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormCheck.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormPayment.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormRegister.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormUser.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormWelcome.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormYHSLI.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormYHSR.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormGoldenRoad.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.FormAdmin.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\milse\Desktop\finalna verzija\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb

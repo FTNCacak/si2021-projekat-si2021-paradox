@@ -116,3 +116,25 @@ C:\Users\skezla\Desktop\AESAD\Golden Road\BusinessLayer\bin\Debug\Microsoft.Exte
 C:\Users\skezla\Desktop\AESAD\Golden Road\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\skezla\Desktop\AESAD\Golden Road\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\skezla\Desktop\AESAD\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Shared.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb

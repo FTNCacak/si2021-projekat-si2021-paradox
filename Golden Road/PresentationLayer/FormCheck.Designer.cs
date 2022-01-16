@@ -67,7 +67,6 @@ namespace PresentationLayer
             this.buttonInsert.TabIndex = 34;
             this.buttonInsert.Text = "UNESI";
             this.buttonInsert.UseVisualStyleBackColor = false;
-            this.buttonInsert.Click += new System.EventHandler(this.buttonInsert_Click_1);
             // 
             // buttonUptade
             // 
@@ -84,7 +83,6 @@ namespace PresentationLayer
             this.buttonUptade.TabIndex = 33;
             this.buttonUptade.Text = "AŽURIRAJ";
             this.buttonUptade.UseVisualStyleBackColor = false;
-            this.buttonUptade.Click += new System.EventHandler(this.buttonUptade_Click_1);
             // 
             // buttonDelete
             // 
@@ -104,12 +102,15 @@ namespace PresentationLayer
             // 
             // dataGridViewCheck
             // 
+            this.dataGridViewCheck.AllowUserToAddRows = false;
+            this.dataGridViewCheck.AllowUserToDeleteRows = false;
             this.dataGridViewCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewCheck.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCheck.Location = new System.Drawing.Point(20, 20);
             this.dataGridViewCheck.Name = "dataGridViewCheck";
+            this.dataGridViewCheck.ReadOnly = true;
             this.dataGridViewCheck.Size = new System.Drawing.Size(711, 292);
             this.dataGridViewCheck.TabIndex = 0;
             // 

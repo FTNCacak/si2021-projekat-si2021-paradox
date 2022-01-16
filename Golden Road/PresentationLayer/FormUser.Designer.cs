@@ -142,7 +142,6 @@ namespace PresentationLayer
             this.Name = "FormUser";
             this.Padding = new System.Windows.Forms.Padding(100);
             this.Text = "FormUser";
-            this.Load += new System.EventHandler(this.FormUser_Load);
             this.panelLoginUser.ResumeLayout(false);
             this.panelLoginUser.PerformLayout();
             this.ResumeLayout(false);
