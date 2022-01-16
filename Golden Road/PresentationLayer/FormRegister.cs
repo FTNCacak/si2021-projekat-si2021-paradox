@@ -10,11 +10,18 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Shared.Interfaces;
 
 namespace PresentationLayer
 {
     public partial class FormRegister : Form
     {
+        //readonly IGoldenRoadBusiness goldenRoadBusiness;
+        //public FormRegister(IGoldenRoadBusiness _goldenRoadBusiness)
+        //{
+        //    goldenRoadBusiness = _goldenRoadBusiness;
+        //}
+
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
         public FormRegister()
         {

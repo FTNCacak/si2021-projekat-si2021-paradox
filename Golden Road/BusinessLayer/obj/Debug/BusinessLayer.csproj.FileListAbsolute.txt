@@ -93,3 +93,14 @@ C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\Business
 C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\Shared.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml

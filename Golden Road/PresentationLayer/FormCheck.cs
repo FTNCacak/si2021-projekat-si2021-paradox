@@ -1,5 +1,6 @@
 ﻿using BusinessLayer;
 using Shared.Models;
+using Shared.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,21 +16,30 @@ namespace PresentationLayer
 {
     public partial class FormCheck : Form
     {
+
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
         public List<User> allUsers;
+
+        //readonly IGoldenRoadBusiness goldenRoadBusiness;
+        //public FormCheck(IGoldenRoadBusiness _goldenRoadBusiness)
+        //{
+        //    goldenRoadBusiness = _goldenRoadBusiness;            
+        //}
+
         public FormCheck()
         {
             InitializeComponent();
-
             allUsers = goldenRoadBusiness.GetAllUsers();
         }
 
         private void FormCheck_Load(object sender, EventArgs e)
         {
-            var users = this.allUsers;
+            
+            var users = allUsers;
             dataGridViewCheck.DataSource = users;
             dataGridViewCheck.Columns["Id"].Visible = false;
         }
+
 
         private void buttonInsert_Click(object sender, EventArgs e)
         {
@@ -61,6 +71,11 @@ namespace PresentationLayer
         {
             goldenRoadBusiness.UpdateUser(user);
             FormCheck_Load(sender, e); 
+        }
+
+        private void buttonInsert_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

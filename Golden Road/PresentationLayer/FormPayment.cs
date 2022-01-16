@@ -8,11 +8,18 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Collections.Generic;
 using static PresentationLayer.FormUser;
+using Shared.Interfaces;
 
 namespace PresentationLayer
 {
     public partial class FormPayment : Form
     {
+        //readonly IGoldenRoadBusiness goldenRoadBusiness;
+        //public FormPayment(IGoldenRoadBusiness _goldenRoadBusiness)
+        //{
+        //    goldenRoadBusiness = _goldenRoadBusiness;
+        //}
+
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
         private TextBox userId = Global.UserID;
         public List<User> users = new List<User>();

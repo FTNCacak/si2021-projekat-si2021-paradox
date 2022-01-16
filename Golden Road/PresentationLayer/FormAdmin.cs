@@ -69,5 +69,10 @@ namespace PresentationLayer
             }
 
         }
+
+        private void FormAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

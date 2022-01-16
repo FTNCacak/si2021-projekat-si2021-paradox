@@ -10,7 +10,13 @@ CREATE TABLE [dbo].[Users] (
     [Adresa]           NVARCHAR (30)   NULL,
     [Broj_Racuna]      BIGINT          NULL,
     [Stanje_Na_Racunu] DECIMAL (18, 3) NOT NULL,
+<<<<<<< HEAD
+    PRIMARY KEY CLUSTERED ([Id] ASC), 
+    
+	
+=======
     PRIMARY KEY CLUSTERED ([Id] ASC)
+>>>>>>> f494408273922bb87b3b90b8fb31acb6b1433f75
 );
 
 

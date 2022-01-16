@@ -16,5 +16,10 @@ namespace PresentationLayer
         {
             InitializeComponent();
         }
+
+        private void FormWelcome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

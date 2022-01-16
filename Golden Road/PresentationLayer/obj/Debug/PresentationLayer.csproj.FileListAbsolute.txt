@@ -272,3 +272,16 @@ C:\Users\milse\Desktop\najfinalnije\Golden Road\PresentationLayer\obj\Debug\Pres
 C:\Users\milse\Desktop\najfinalnije\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
 C:\Users\milse\Desktop\najfinalnije\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\milse\Desktop\najfinalnije\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Shared.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml

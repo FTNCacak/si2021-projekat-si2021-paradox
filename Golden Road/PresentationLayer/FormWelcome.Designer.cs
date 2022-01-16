@@ -81,6 +81,7 @@ namespace PresentationLayer
             this.Controls.Add(this.pictureBoxWRT);
             this.Name = "FormWelcome";
             this.Text = "FormWelcome";
+            this.Load += new System.EventHandler(this.FormWelcome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxW)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWRB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWRT)).EndInit();

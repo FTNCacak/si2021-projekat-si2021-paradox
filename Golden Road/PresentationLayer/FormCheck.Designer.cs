@@ -67,6 +67,7 @@ namespace PresentationLayer
             this.buttonInsert.TabIndex = 34;
             this.buttonInsert.Text = "UNESI";
             this.buttonInsert.UseVisualStyleBackColor = false;
+            this.buttonInsert.Click += new System.EventHandler(this.buttonInsert_Click_1);
             // 
             // buttonUptade
             // 

@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Shared.Interfaces;
 
 namespace PresentationLayer
 {
     public partial class FormGoldenRoad : Form
     {
+        readonly IGoldenRoadBusiness goldenRoadBusiness;
+
         public static FormGoldenRoad fGRinstance;
         public Button btnLogout, btnCheck, btnPayment, btnLogin, btnRegister;
         public Panel pnlChildForm;
@@ -105,6 +108,7 @@ namespace PresentationLayer
         {
             hidePopUpMenu();
             openChildForm(new FormCheck());
+            Console.WriteLine("Tet");
         }
 
         private void buttonFormPayment_Click(object sender, EventArgs e)

@@ -113,6 +113,7 @@ namespace PresentationLayer
             this.Name = "FormAdmin";
             this.Padding = new System.Windows.Forms.Padding(100);
             this.Text = "FormAdmin";
+            this.Load += new System.EventHandler(this.FormAdmin_Load);
             this.panelLoginAdmin.ResumeLayout(false);
             this.panelLoginAdmin.PerformLayout();
             this.ResumeLayout(false);

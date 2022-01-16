@@ -69,3 +69,13 @@ C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.cs
 C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
 C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.dll
 C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Shared.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
