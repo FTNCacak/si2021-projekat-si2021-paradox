@@ -17,6 +17,6 @@ namespace Shared.Interfaces
 
         List<Payment> GetAllPayments();
         int InsertPayment(Payment payment, long broj_Racuna_Uplatioca, TextBox tbAmount, TextBox tbState);
-        List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState);
+        List<User> GetUser(string tbUserId, TextBox tbFromAcc, TextBox tbState);
     }
 }

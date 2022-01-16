@@ -24,7 +24,7 @@ namespace BusinessLayer
             return this.goldenRoadRepository.GetAllPayments();
         }
 
-        public List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState)
+        public List<User> GetUser(String tbUserId, TextBox tbFromAcc, TextBox tbState)
         {
             return this.goldenRoadRepository.GetUser(tbUserId, tbFromAcc, tbState);
         }

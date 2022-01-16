@@ -155,7 +155,7 @@ namespace DataLayer
             }
         }
 
-        public List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState)
+        public List<User> GetUser(string tbUserId, TextBox tbFromAcc, TextBox tbState)
         {
             List<User> userList = new List<User>();
 
@@ -165,8 +165,9 @@ namespace DataLayer
 
                 SqlCommand command = new SqlCommand();
                 command.Connection = sqlConnection;
-                command.CommandText = "SELECT *FROM Users WHERE Korisnicki_Id = 'asdasdasdasd'";
 
+                command.Parameters.Add(new SqlParameter("userId", tbUserId));
+                command.CommandText = "SELECT TOP 1 * FROM Users WHERE Korisnicki_Id LIKE @userId";
 
                 SqlDataReader dataReader = command.ExecuteReader();
                 while (dataReader.Read())

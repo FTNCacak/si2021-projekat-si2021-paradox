@@ -171,7 +171,6 @@ C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\Presentati
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
-C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.pdb
 C:\Users\skezla\Desktop\V1\Golden Road\PresentationLayer\bin\Debug\PresentationLayer.exe.config
@@ -285,3 +284,17 @@ C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.
 C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\aleks\Desktop\GR App\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\DataLayer.dll.config
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Shared.dll.config
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete

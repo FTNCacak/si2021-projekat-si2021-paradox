@@ -84,6 +84,7 @@ namespace PresentationLayer
             this.buttonUptade.TabIndex = 33;
             this.buttonUptade.Text = "AŽURIRAJ";
             this.buttonUptade.UseVisualStyleBackColor = false;
+            this.buttonUptade.Click += new System.EventHandler(this.buttonUptade_Click_1);
             // 
             // buttonDelete
             // 

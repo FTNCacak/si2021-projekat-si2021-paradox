@@ -33,8 +33,8 @@ namespace PresentationLayer
 
         private static void ConfigureServices(ServiceCollection services)
         {
-            services.AddScoped<IGoldenRoadBusiness, GoldenRoadBusiness>();
-            services.AddScoped<IGoldenRoadRepository, GoldenRoadRepository>();
+            //services.AddScoped<IGoldenRoadBusiness, GoldenRoadBusiness>();
+            //services.AddScoped<IGoldenRoadRepository, GoldenRoadRepository>();
 
             services.AddScoped<FormGoldenRoad>();
             services.AddScoped<FormCheck>();

@@ -60,6 +60,7 @@ namespace PresentationLayer
 
 
         User user = new User();
+ 
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
@@ -76,6 +77,12 @@ namespace PresentationLayer
         private void buttonInsert_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonUptade_Click_1(object sender, EventArgs e)
+        {
+            goldenRoadBusiness.UpdateUser(user);
+            FormCheck_Load(sender, e);
         }
     }
 }

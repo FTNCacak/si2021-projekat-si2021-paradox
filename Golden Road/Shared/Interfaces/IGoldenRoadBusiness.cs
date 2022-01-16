@@ -16,6 +16,6 @@ namespace Shared.Interfaces
         bool DeleteUser(int id);
         List<Payment> GetAllPayments();
         bool InsertPayment(Payment payment, long broj_Racuna_Uplatioca, TextBox tbAmount, TextBox tbState);
-        List<User> GetUser(TextBox tbUserId, TextBox tbFromAcc, TextBox tbState);
+        List<User> GetUser(string tbUserId, TextBox tbFromAcc, TextBox tbState);
     }
 }

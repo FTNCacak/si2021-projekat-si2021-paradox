@@ -21,7 +21,6 @@ namespace PresentationLayer
         //}
 
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
-        private TextBox userId = Global.UserID;
         public List<User> users = new List<User>();
         public static FormPayment fPinstance;
         public TextBox tbFromAcc, tbState;
@@ -118,7 +117,13 @@ namespace PresentationLayer
 
         private void FormPayment_Load(object sender, EventArgs e)
         {
-            goldenRoadBusiness.GetUser(userId, textBoxFromAcc, textBoxState);
+            //TextBox tb = new TextBox()
+            //{
+            //    Text = FormUser.sUserId
+            //};
+
+          
+            goldenRoadBusiness.GetUser(FormUser.sUserId, textBoxFromAcc, textBoxState);
         }
     }
 }

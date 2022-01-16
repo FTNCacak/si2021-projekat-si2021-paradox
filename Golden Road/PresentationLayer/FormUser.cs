@@ -25,11 +25,7 @@ namespace PresentationLayer
         readonly GoldenRoadBusiness goldenRoadBusiness = new GoldenRoadBusiness();
 
         public static FormUser fUInstance;
-        public TextBox tbUserId;
-        public static class Global
-        {
-            public static TextBox UserID;
-        }
+        public static string sUserId;
 
         public FormUser()
         {
@@ -61,6 +57,8 @@ namespace PresentationLayer
                 return;
             }
 
+            sUserId = textBoxUserId.Text;
+
             //ne regex nego uslovi
 
             foreach (User user in goldenRoadBusiness.GetAllUsers())
@@ -78,7 +76,7 @@ namespace PresentationLayer
 
             MessageBox.Show("Uneti podaci ne odgovaraju ni jednom korisniku!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
-
+            
         }
 
         private void FormUser_Load(object sender, EventArgs e)
