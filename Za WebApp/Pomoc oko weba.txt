@@ -1,0 +1,1 @@
+Kopirati ceo fajl u GoldenRoadWebApp kako bi se ucitala web aplijacija
