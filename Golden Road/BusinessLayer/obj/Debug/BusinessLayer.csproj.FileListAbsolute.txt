@@ -82,3 +82,14 @@ C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.c
 C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\skezla\Desktop\Roks\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\BusinessLayer\obj\Debug\BusinessLayer.pdb

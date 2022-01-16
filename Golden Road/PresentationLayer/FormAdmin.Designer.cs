@@ -99,6 +99,7 @@ namespace PresentationLayer
             this.textBoxAdminPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(188)))), ((int)(((byte)(29)))));
             this.textBoxAdminPassword.Location = new System.Drawing.Point(382, 88);
             this.textBoxAdminPassword.Name = "textBoxAdminPassword";
+            this.textBoxAdminPassword.PasswordChar = '*';
             this.textBoxAdminPassword.Size = new System.Drawing.Size(200, 22);
             this.textBoxAdminPassword.TabIndex = 0;
             // 
