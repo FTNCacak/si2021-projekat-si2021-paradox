@@ -1,0 +1,118 @@
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\Golden Road App\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\milse\Desktop\projekat\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\GR\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\Proba\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\V1\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\Roks\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\milse\Desktop\najfinalnije\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Shared.dll.config
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aleks\Desktop\GR App\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Shared.dll.config
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\skezla\Desktop\AESAD\Golden Road\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Shared.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Shared.pdb
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Shared.dll.config
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\milse\Desktop\finalna verzija\Golden Road\DataLayer\obj\Debug\DataLayer.pdb

@@ -1,0 +1,27 @@
+CREATE TABLE [dbo].[Users] (
+    [Id]               INT             IDENTITY (1, 1) NOT NULL,
+    [Ime]              NVARCHAR (20)   NOT NULL,
+    [Prezime]          NVARCHAR (30)   NOT NULL,
+    [Korisnicki_Id]    VARCHAR (20)    NOT NULL,
+    [Lozinka]          VARCHAR (20)    NOT NULL,
+    [JMBG]             VARCHAR (13)    NOT NULL,
+    [Mail_Adresa]      VARCHAR (30)    NOT NULL,
+    [Broj_Telefona]    VARCHAR (10)    NULL,
+    [Adresa]           NVARCHAR (30)   NULL,
+    [Broj_Racuna]      BIGINT          NULL,
+    [Stanje_Na_Racunu] DECIMAL (18, 3) NOT NULL,
+<<<<<<< HEAD
+    PRIMARY KEY CLUSTERED ([Id] ASC), 
+    
+	
+=======
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+>>>>>>> f494408273922bb87b3b90b8fb31acb6b1433f75
+);
+
+
+SET IDENTITY_INSERT [dbo].[Users] ON
+INSERT INTO [dbo].[Users] ([Id], [Ime], [Prezime], [Korisnicki_Id], [Lozinka], [JMBG], [Mail_Adresa], [Broj_Telefona], [Adresa], [Broj_Racuna], [Stanje_Na_Racunu]) VALUES (1, N'Aleksandra', N'Todorovic', N'roksi1906', N'roksanda', 1906000754865, N'aleksandratodorovic@gmail.com', N'0612392379', N'Kocino selo BB', 840111222441236547, CAST(15000.000 AS Decimal(18, 3)))
+INSERT INTO [dbo].[Users] ([Id], [Ime], [Prezime], [Korisnicki_Id], [Lozinka], [JMBG], [Mail_Adresa], [Broj_Telefona], [Adresa], [Broj_Racuna], [Stanje_Na_Racunu]) VALUES (2, N'Petar', N'Matijevic', N'petarmrki', N'petarmrki', 2107999456321, N'petarmatijevic99@gmail.com', N'0641364927', N'Takovo 65', 840222111365421478, CAST(25798.000 AS Decimal(18, 3)))
+INSERT INTO [dbo].[Users] ([Id], [Ime], [Prezime], [Korisnicki_Id], [Lozinka], [JMBG], [Mail_Adresa], [Broj_Telefona], [Adresa], [Broj_Racuna], [Stanje_Na_Racunu]) VALUES (3, N'Milica', N'Sebic', N'zzomie', N'zzomie', 2702001456987, N'milsebmici@gmail.com', N'0652722350', N'Rudjinci 268', 840555456987145236, CAST(18900.000 AS Decimal(18, 3)))
+SET IDENTITY_INSERT [dbo].[Users] OFF
